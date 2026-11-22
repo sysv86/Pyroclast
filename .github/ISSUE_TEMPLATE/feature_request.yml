@@ -1,0 +1,42 @@
+name: Feature Request
+description: Propose a Vulkan optimization, TurboShadersBridge hook, or profiling improvement for Pyroclast.
+title: "[feature] "
+labels: ["enhancement"]
+body:
+  - type: dropdown
+    id: subsystem
+    attributes:
+      label: Subsystem
+      options:
+        - "Vulkan Backend (layouts, sync, caches)"
+        - "Chunk & Region MDI Pipeline"
+        - "Vertex & Memory Allocation"
+        - "Entity / Particle / UI Fast Paths"
+        - "Shader Bridge SPI (TurboShadersBridge)"
+        - "Benchmarking & Profiler"
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or bottleneck
+      description: What rendering, synchronization, allocation, or compatibility issue does this address? Include profiler/JFR evidence if available.
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed technical approach
+      description: Describe the design cleanly against Mojang's RenderPearl API or the Vulkan specification (do not reference or copy competitor mod code).
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Policy check
+      options:
+        - label: This proposal does not rely on copying code from Sodium (PolyForm Shield), Iris, VulkanMod, or OptiFine.
+          required: true

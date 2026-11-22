@@ -1,0 +1,71 @@
+name: Bug Report
+description: Report a crash, rendering defect, or Vulkan validation error in Pyroclast (VulkanTurbo).
+title: "[bug] "
+labels: ["bug", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Provide enough technical detail to reproduce the issue. Reports missing logs
+        or GPU/driver details may be closed as incomplete.
+
+  - type: dropdown
+    id: subsystem
+    attributes:
+      label: Affected Subsystem
+      options:
+        - "Vulkan Backend (layouts, barriers, buffer views, pipeline cache)"
+        - "Chunk & Terrain Region MDI / Meshing / Occlusion"
+        - "Vertex & UberGpuBuffer Allocation"
+        - "Entity, Particle, Weather, or UI Rendering"
+        - "Shader Bridge (TurboShadersBridge / Hyaloclast)"
+        - "Profiler / Settings GUI / Crash"
+    validations:
+      required: true
+
+  - type: textarea
+    id: summary
+    attributes:
+      label: What happened?
+      description: Describe the bug and what you expected to happen instead.
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Launch Minecraft 26.3 with Pyroclast (mention if Hyaloclast or other mods are installed)
+        2. Enter world / toggle option in video settings
+        3. Observe crash, validation error, or visual artifact
+    validations:
+      required: true
+
+  - type: input
+    id: environment
+    attributes:
+      label: Environment (Minecraft, mod version, OS, GPU & driver)
+      description: Include Minecraft version, Pyroclast version/commit, Fabric Loader version, OS, GPU model, and Vulkan driver version.
+      placeholder: "MC 26.3 | Fabric 0.20.1 | Pyroclast 0.1.0-alpha.1 | Linux x86_64 | RTX 4070 (565.xx)"
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs / Crash report
+      description: Paste relevant sections of `logs/latest.log`, crash report, or Vulkan Diagnostic Log output.
+      render: text
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Pre-submission checklist
+      options:
+        - label: I searched existing issues and confirmed this is not a duplicate.
+          required: true
+        - label: I attached real logs and did not paste decompiled Minecraft or third-party mod code.
+          required: true

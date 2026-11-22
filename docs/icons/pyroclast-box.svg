@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" role="img" aria-label="PYROCLAST mod box icon">
+  <title>PYROCLAST mod box icon</title>
+  <style>
+    @keyframes mosaicPulse{0%,100%{opacity:.85}50%{opacity:1}}
+    @keyframes iconFloat{0%,100%{transform:translateY(0)}50%{transform:translateY(-6px)}}
+    @keyframes sweep{0%{transform:translateX(-120px)}55%,100%{transform:translateX(300px)}}
+    .glint{animation:sweep 4.6s cubic-bezier(.4,0,.2,1) infinite}
+    .float{animation:iconFloat 4.6s ease-in-out infinite}
+    .mosaic{animation:mosaicPulse 8s ease-in-out infinite}
+</style>
+  <defs>
+    <linearGradient id="front" gradientUnits="userSpaceOnUse" x1="0" y1="88" x2="0" y2="220">
+      <stop offset="0%" stop-color="#B9EBE7"/><stop offset="18%" stop-color="#DCF6F4"/><stop offset="34%" stop-color="#FFF8F9"/><stop offset="56%" stop-color="#FBBCCB"/><stop offset="82%" stop-color="#F88294"/><stop offset="100%" stop-color="#EC6076"/>
+    </linearGradient>
+    <linearGradient id="sideg" gradientUnits="userSpaceOnUse" x1="0" y1="88" x2="0" y2="220">
+      <stop offset="0%" stop-color="#7EA1AD"/><stop offset="32%" stop-color="#9B8CA6"/><stop offset="68%" stop-color="#B46883"/><stop offset="84%" stop-color="#735A7C"/><stop offset="100%" stop-color="#4F4A6B"/>
+    </linearGradient>
+    <linearGradient id="bunnyFront" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#76BFFF"/><stop offset="55%" stop-color="#4FA7F4"/><stop offset="100%" stop-color="#3DBBD6"/></linearGradient>
+    <pattern id="mosaic" width="27" height="27" patternUnits="userSpaceOnUse">
+      <rect x="0" y="0" width="9" height="9" fill="#FFFFFF" fill-opacity="0.13"/><rect x="9" y="0" width="9" height="9" fill="#000000" fill-opacity="0.035"/><rect x="18" y="0" width="9" height="9" fill="#FFFFFF" fill-opacity="0.06"/>
+      <rect x="0" y="9" width="9" height="9" fill="#000000" fill-opacity="0.045"/><rect x="9" y="9" width="9" height="9" fill="#FFFFFF" fill-opacity="0.11"/><rect x="18" y="9" width="9" height="9" fill="#000000" fill-opacity="0.05"/>
+      <rect x="0" y="18" width="9" height="9" fill="#FFFFFF" fill-opacity="0.05"/><rect x="9" y="18" width="9" height="9" fill="#000000" fill-opacity="0.03"/><rect x="18" y="18" width="9" height="9" fill="#FFFFFF" fill-opacity="0.12"/>
+    </pattern>
+    <pattern id="bmosaic" width="24" height="24" patternUnits="userSpaceOnUse">
+      <rect x="0" y="0" width="8" height="8" fill="#FFFFFF" fill-opacity="0.12"/><rect x="8" y="0" width="8" height="8" fill="#000000" fill-opacity="0.04"/><rect x="16" y="0" width="8" height="8" fill="#FFFFFF" fill-opacity="0.06"/>
+      <rect x="0" y="8" width="8" height="8" fill="#000000" fill-opacity="0.05"/><rect x="8" y="8" width="8" height="8" fill="#FFFFFF" fill-opacity="0.10"/><rect x="16" y="8" width="8" height="8" fill="#000000" fill-opacity="0.04"/>
+      <rect x="0" y="16" width="8" height="8" fill="#FFFFFF" fill-opacity="0.05"/><rect x="8" y="16" width="8" height="8" fill="#000000" fill-opacity="0.03"/><rect x="16" y="16" width="8" height="8" fill="#FFFFFF" fill-opacity="0.11"/>
+    </pattern>
+    <linearGradient id="glint-grad" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0"/><stop offset=".5" stop-color="#FFFFFF" stop-opacity=".45"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/></linearGradient>
+    <filter id="softShadow" x="-10%" y="-10%" width="120%" height="125%"><feDropShadow dx="0" dy="3" stdDeviation="2.5" flood-color="#2B2640" flood-opacity="0.28"/></filter>
+
+    <linearGradient id="topg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#F2FFFE"/><stop offset="100%" stop-color="#B9EBE7"/></linearGradient>
+    <clipPath id="leftclip"><polygon points="44.0,88.0 128.0,124.0 128.0,220.0 44.0,184.0"/></clipPath>
+    <clipPath id="rightclip"><polygon points="128.0,124.0 212.0,88.0 212.0,184.0 128.0,220.0"/></clipPath>
+    <clipPath id="topclip"><polygon points="128.0,52.0 212.0,88.0 128.0,124.0 44.0,88.0"/></clipPath>
+  </defs>
+  <ellipse cx="128" cy="234" rx="80" ry="10" fill="#2B2640" opacity=".18"/>
+  <g filter="url(#softShadow)">
+  <g class="float">
+    <polygon points="128.0,52.0 212.0,88.0 212.0,184.0 128.0,220.0 44.0,184.0 44.0,88.0" fill="#38354D" stroke="#38354D" stroke-width="12" stroke-linejoin="miter" stroke-miterlimit="3"/>
+    <polygon points="44.0,88.0 128.0,124.0 128.0,220.0 44.0,184.0" fill="url(#front)"/>
+    <polygon points="128.0,124.0 212.0,88.0 212.0,184.0 128.0,220.0" fill="url(#sideg)"/>
+    <polygon points="128.0,52.0 212.0,88.0 128.0,124.0 44.0,88.0" fill="url(#topg)"/>
+    <g clip-path="url(#leftclip)" class="mosaic"><rect x="40" y="84" width="92" height="140" fill="url(#mosaic)"/></g>
+    <g clip-path="url(#rightclip)" class="mosaic"><rect x="124" y="80" width="92" height="144" fill="url(#mosaic)"/></g>
+    <g clip-path="url(#topclip)"><rect x="40" y="48" width="176" height="80" fill="url(#mosaic)"/></g>
+    <g clip-path="url(#leftclip)"><g class="glint"><path d="M0 60h46l-18 170h-46z" fill="url(#glint-grad)"/></g></g>
+    <!-- lid band -->
+    <polygon points="44.0,108.0 128.0,144.0 128.0,124.0 44.0,88.0" fill="#7EA1AD" opacity=".35"/>
+    <polygon points="128.0,124.0 212.0,88.0 212.0,108.0 128.0,144.0" fill="#000" opacity=".22"/>
+    <polyline points="44.0,108.0 128.0,144.0 212.0,108.0" fill="none" stroke="#38354D" stroke-width="3.2" stroke-linejoin="round"/>
+    <polyline points="128.0,52.0 212.0,88.0 128.0,124.0 44.0,88.0 128.0,52.0" fill="none" stroke="#38354D" stroke-width="3.2" stroke-linejoin="round"/>
+    <polyline points="128.0,124.0 128.0,220.0" fill="none" stroke="#38354D" stroke-width="3.2"/>
+    <!-- open top (tray) -->
+    <polygon points="128.0,67.0 184.0,90.0 128.0,113.0 72.0,90.0" fill="#4F4A6B" stroke="#38354D" stroke-width="3" stroke-linejoin="round"/>
+    <polygon points="128.0,73.0 170.0,91.0 128.0,109.0 86.0,91.0" fill="#735A7C" opacity=".9"/>
+    <!-- label on left face -->
+    <g transform="matrix(1 0.4286 0 1 44 88)">
+      <rect x="12" y="46" width="60" height="44" fill="url(#bunnyFront)" stroke="#38354D" stroke-width="3.2" stroke-linejoin="round"/>
+      <rect x="12" y="46" width="60" height="44" fill="url(#bmosaic)"/>
+      <rect x="15" y="49" width="54" height="5" fill="#fff" opacity=".35"/>
+    </g>
+    <g transform="matrix(1 -0.4286 0 1 128 124)">
+      <rect x="14" y="46" width="12" height="12" fill="#B46883" opacity=".5"/><rect x="40" y="68" width="12" height="12" fill="#9B8CA6" opacity=".4"/><rect x="58" y="50" width="12" height="12" fill="#B46883" opacity=".35"/>
+    </g>
+  </g>
+  </g>
+</svg>

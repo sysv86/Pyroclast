@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "vulkanturbo",
+  "version": "${version}",
+  "name": "Pyroclast",
+  "description": "Clean-room Vulkan performance engine for Minecraft: Java Edition 26.3+ (codename: TEPHRA, internal: VulkanTurbo).",
+  "authors": [
+    "VulkanTurbo contributors"
+  ],
+  "contact": {
+    "homepage": "https://github.com/",
+    "sources": "https://github.com/"
+  },
+  "license": "Apache-2.0",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      {
+        "adapter": "kotlin",
+        "value": "dev.vulkanturbo.VulkanTurbo"
+      }
+    ]
+  },
+  "mixins": [
+    {
+      "config": "vulkanturbo.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=0.20.1",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-language-kotlin": ">=1.14.2+kotlin.2.4.21",
+    "fabric-resource-loader-v1": ">=3.1.0"
+  }
+}

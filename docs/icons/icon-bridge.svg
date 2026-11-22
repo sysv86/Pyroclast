@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" shape-rendering="crispEdges" role="img" aria-label="PYROCLAST shader bridge icon">
+  <title>PYROCLAST shader bridge icon</title>
+  <style>
+    @keyframes mosaicPulse{0%,100%{opacity:.85}50%{opacity:1}}
+    @keyframes iconFloat{0%,100%{transform:translateY(0)}50%{transform:translateY(-6px)}}
+    @keyframes sweep{0%{transform:translateX(-120px)}55%,100%{transform:translateX(300px)}}
+    .glint{animation:sweep 4.6s cubic-bezier(.4,0,.2,1) infinite}
+    .float{animation:iconFloat 4.6s steps(5,end) infinite}
+    .mosaic{animation:mosaicPulse 8s ease-in-out infinite}
+  </style>
+  <defs>
+    <path id="shape" d="M16 48h96v16h-96Z M144 48h96v16h-96Z M16 64h96v16h-96Z M144 64h96v16h-96Z M16 80h32v16h-32Z M80 80h32v16h-32Z M144 80h32v16h-32Z M208 80h32v16h-32Z M16 96h32v16h-32Z M80 96h96v16h-96Z M208 96h32v16h-32Z M16 112h32v16h-32Z M80 112h96v16h-96Z M208 112h32v16h-32Z M16 128h32v16h-32Z M80 128h32v16h-32Z M144 128h32v16h-32Z M208 128h32v16h-32Z M16 144h96v16h-96Z M144 144h96v16h-96Z M16 160h96v16h-96Z M144 160h96v16h-96Z"/>
+    <clipPath id="sclip"><use href="#shape"/></clipPath>
+    <linearGradient id="front" gradientUnits="userSpaceOnUse" x1="0" y1="16" x2="0" y2="240">
+      <stop offset="0%" stop-color="#B9EBE7"/><stop offset="18%" stop-color="#DCF6F4"/><stop offset="36%" stop-color="#FFF8F9"/><stop offset="60%" stop-color="#FBBCCB"/><stop offset="84%" stop-color="#F88294"/><stop offset="100%" stop-color="#EC6076"/>
+    </linearGradient>
+    <linearGradient id="sideg" gradientUnits="userSpaceOnUse" x1="0" y1="16" x2="0" y2="240">
+      <stop offset="0%" stop-color="#7EA1AD"/><stop offset="32%" stop-color="#9B8CA6"/><stop offset="68%" stop-color="#B46883"/><stop offset="84%" stop-color="#735A7C"/><stop offset="100%" stop-color="#4F4A6B"/>
+    </linearGradient>
+    <linearGradient id="accent" gradientUnits="userSpaceOnUse" x1="0" y1="48" x2="0" y2="208">
+      <stop offset="0%" stop-color="#76BFFF"/><stop offset="55%" stop-color="#4FA7F4"/><stop offset="100%" stop-color="#3DBBD6"/>
+    </linearGradient>
+    <pattern id="mosaic" width="27" height="27" patternUnits="userSpaceOnUse">
+      <rect x="0" y="0" width="9" height="9" fill="#FFFFFF" fill-opacity="0.13"/><rect x="9" y="0" width="9" height="9" fill="#000000" fill-opacity="0.035"/><rect x="18" y="0" width="9" height="9" fill="#FFFFFF" fill-opacity="0.06"/>
+      <rect x="0" y="9" width="9" height="9" fill="#000000" fill-opacity="0.045"/><rect x="9" y="9" width="9" height="9" fill="#FFFFFF" fill-opacity="0.11"/><rect x="18" y="9" width="9" height="9" fill="#000000" fill-opacity="0.05"/>
+      <rect x="0" y="18" width="9" height="9" fill="#FFFFFF" fill-opacity="0.05"/><rect x="9" y="18" width="9" height="9" fill="#000000" fill-opacity="0.03"/><rect x="18" y="18" width="9" height="9" fill="#FFFFFF" fill-opacity="0.12"/>
+    </pattern>
+    <linearGradient id="glint-grad" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0"/><stop offset=".5" stop-color="#FFFFFF" stop-opacity=".45"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/></linearGradient>
+    <filter id="softShadow" x="-10%" y="-10%" width="120%" height="125%"><feDropShadow dx="0" dy="3" stdDeviation="2.5" flood-color="#2B2640" flood-opacity="0.28"/></filter>
+  </defs>
+  <g filter="url(#softShadow)">
+    <g class="float">
+      <g fill="#38354D" stroke="#38354D" stroke-width="16" stroke-linejoin="miter" stroke-miterlimit="3"><use href="#shape" transform="translate(-3.60 12.00)"/><use href="#shape" transform="translate(-3.00 10.00)"/><use href="#shape" transform="translate(-2.40 8.00)"/><use href="#shape" transform="translate(-1.80 6.00)"/><use href="#shape" transform="translate(-1.20 4.00)"/><use href="#shape" transform="translate(-0.60 2.00)"/><use href="#shape" transform="translate(-0.00 0.00)"/></g>
+      <g fill="url(#sideg)"><use href="#shape" transform="translate(-3.60 12.00)"/><use href="#shape" transform="translate(-3.00 10.00)"/><use href="#shape" transform="translate(-2.40 8.00)"/><use href="#shape" transform="translate(-1.80 6.00)"/><use href="#shape" transform="translate(-1.20 4.00)"/><use href="#shape" transform="translate(-0.60 2.00)"/><use href="#shape" transform="translate(-0.00 0.00)"/></g>
+      <g clip-path="url(#sclip)">
+        <path d="M16 48h96v16h-96Z M16 64h96v16h-96Z M16 80h32v16h-32Z M80 80h32v16h-32Z M16 96h32v16h-32Z M16 112h32v16h-32Z M16 128h32v16h-32Z M80 128h32v16h-32Z M16 144h96v16h-96Z M16 160h96v16h-96Z" fill="url(#front)"/>
+        <g class="mosaic"><path d="M16 48h96v16h-96Z M16 64h96v16h-96Z M16 80h32v16h-32Z M80 80h32v16h-32Z M16 96h32v16h-32Z M16 112h32v16h-32Z M16 128h32v16h-32Z M80 128h32v16h-32Z M16 144h96v16h-96Z M16 160h96v16h-96Z" fill="url(#mosaic)"/></g>
+        <path d="M144 48h96v16h-96Z M144 64h96v16h-96Z M144 80h32v16h-32Z M208 80h32v16h-32Z M208 96h32v16h-32Z M208 112h32v16h-32Z M144 128h32v16h-32Z M208 128h32v16h-32Z M144 144h96v16h-96Z M144 160h96v16h-96Z" fill="url(#accent)"/>
+        <path d="M80 96h96v16h-96Z M80 112h96v16h-96Z" fill="#F2FFFE"/>
+        <g class="glint"><path d="M0 0h50l-18 256h-50z" fill="url(#glint-grad)"/></g>
+      </g>
+    </g>
+  </g>
+</svg>

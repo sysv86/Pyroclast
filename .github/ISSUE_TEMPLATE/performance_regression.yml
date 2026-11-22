@@ -1,0 +1,37 @@
+name: Performance Regression
+description: Report a measurable FPS drop, frame-time spike, or allocation regression in Pyroclast.
+title: "[perf] "
+labels: ["performance", "needs-triage"]
+body:
+  - type: input
+    id: hardware
+    attributes:
+      label: Hardware, OS & Vulkan driver
+      placeholder: "AMD Ryzen 7 | RTX 4070 (565.xx) | Linux x86_64 | 1920x1080"
+    validations:
+      required: true
+
+  - type: input
+    id: baseline
+    attributes:
+      label: Baseline vs regressed version/commit
+      placeholder: "Baseline: commit abc1234 (or vanilla MC 26.3) -> Regressed: commit def5678"
+    validations:
+      required: true
+
+  - type: textarea
+    id: scene
+    attributes:
+      label: Scene & settings
+      description: World name, render distance, fullscreen/OIT flags, and whether Hyaloclast or other mods are active.
+    validations:
+      required: true
+
+  - type: textarea
+    id: measurements
+    attributes:
+      label: "`bench/compare.py` or JFR measurements"
+      description: Paste the Markdown/JSON summary from `bench/compare.py`, `FrameProfiler` output, or JFR hotspot summary.
+      render: text
+    validations:
+      required: true

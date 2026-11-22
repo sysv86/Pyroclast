@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="45 115 1845 605" width="1845" height="605" role="img" aria-label="PYROCLAST">
+  <title>PYROCLAST</title>
+  <defs>
+    <path id="faceShape" fill-rule="evenodd" d="M718.4 31.9 L732.1 32.4 L732.1 37.6 L733.1 38.4 L733.1 47.6 L734.1 48.4 L733.6 55.1 L719.9 54.6 L719.9 52.4 L718.9 51.6 L718.9 41.4 L717.9 40.6Z       M402.4 31.9 L416.1 32.4 L416.1 46.6 L415.1 47.4 L415.1 70.6 L414.1 71.4 L414.1 93.6 L413.1 94.4 L412.6 103.1 L397.9 102.6 L398.9 101.6 L398.9 82.4 L399.9 81.6 L400.9 41.4 L401.9 40.6Z       M292.4 31.9 L306.1 32.4 L305.1 51.6 L304.1 52.4 L303.6 55.1 L289.9 54.6 L290.9 38.4 L291.9 37.6Z       M73.4 31.9 L86.1 32.4 L86.1 37.6 L85.1 38.4 L85.1 42.6 L84.1 43.4 L84.1 48.6 L83.1 49.4 L83.1 53.6 L81.6 55.1 L67.9 54.6 L68.9 47.4 L69.9 46.6 L69.9 42.4 L70.9 41.6 L70.9 37.4 L71.9 36.6 L71.9 33.4Z       M893.4 10.1 L893.1 13.6 L894.1 14.4 L894.1 18.6 L895.1 19.4 L896.1 30.6 L897.4 31.9 L923.6 31.9 L925.1 34.4 L925.1 39.6 L926.1 40.4 L927.1 50.6 L928.1 51.4 L928.1 55.6 L929.1 56.4 L929.1 60.6 L930.1 61.4 L930.1 66.6 L931.1 67.4 L931.1 71.6 L932.1 72.4 L932.1 77.6 L933.1 78.4 L933.1 82.6 L934.1 83.4 L934.1 88.6 L935.1 89.4 L935.1 93.6 L936.1 94.4 L936.1 99.6 L937.1 100.4 L937.1 104.6 L938.1 105.4 L938.1 110.6 L939.1 111.4 L939.1 115.6 L940.1 116.4 L941.1 126.6 L942.4 127.9 L982.6 127.9 L983.9 125.4 L982.9 124.6 L982.9 120.4 L981.9 119.6 L981.9 115.4 L980.9 114.6 L980.9 110.4 L979.9 109.6 L979.9 105.4 L978.9 104.6 L978.9 100.4 L977.9 99.6 L977.9 95.4 L976.9 94.6 L976.9 90.4 L975.9 89.6 L975.9 85.4 L974.9 84.6 L974.9 80.4 L973.9 79.6 L973.9 75.4 L972.9 74.6 L972.9 70.4 L971.9 69.6 L971.9 65.4 L970.9 64.6 L970.9 60.4 L969.9 59.6 L969.9 55.4 L968.9 54.6 L968.9 50.4 L967.9 49.6 L967.9 45.4 L966.9 44.6 L966.9 40.4 L965.9 39.6 L964.9 32.4 L991.6 31.9 L991.9 28.4 L990.9 27.6 L990.9 24.4 L989.9 23.6 L989.9 19.4 L988.9 18.6 L987.9 10.4Z       M784.4 10.1 L785.1 20.6 L786.1 21.4 L786.1 28.6 L787.1 29.4 L787.1 36.6 L788.1 37.4 L788.1 45.6 L789.1 46.4 L789.1 53.6 L790.1 54.4 L790.1 61.6 L791.1 62.4 L791.1 69.6 L792.1 70.4 L792.1 78.6 L848.6 78.9 L849.1 84.6 L850.1 85.4 L850.1 91.6 L851.1 92.4 L851.1 98.6 L852.1 99.4 L851.6 103.1 L796.4 103.1 L796.1 110.6 L797.1 111.4 L798.1 126.6 L799.4 127.9 L897.6 127.9 L897.9 124.4 L896.9 123.6 L895.9 112.4 L894.9 111.6 L894.9 105.4 L893.9 104.6 L893.9 99.4 L892.9 98.6 L892.9 93.4 L891.9 92.6 L891.9 87.4 L890.9 86.6 L890.9 81.4 L889.9 80.6 L889.9 75.4 L888.9 74.6 L888.9 69.4 L887.9 68.6 L887.9 63.4 L886.9 62.6 L886.9 57.4 L884.6 55.1 L831.4 55.1 L829.9 52.6 L829.9 46.4 L828.9 45.6 L828.9 39.4 L827.9 38.6 L828.4 31.9 L881.6 31.9 L881.9 26.4 L880.9 25.6 L880.9 20.4 L879.9 19.6 L878.9 10.4Z       M675.4 10.1 L675.1 11.6 L676.1 12.4 L676.1 24.6 L677.1 25.4 L677.1 38.6 L678.1 39.4 L678.1 52.6 L679.1 53.4 L679.1 65.6 L680.1 66.4 L680.1 79.6 L681.1 80.4 L681.1 93.6 L682.1 94.4 L682.1 106.6 L683.1 107.4 L683.1 120.6 L684.1 121.4 L684.1 127.6 L725.6 127.9 L725.9 118.4 L724.9 117.6 L724.9 107.4 L723.9 106.6 L723.9 96.4 L722.9 95.6 L722.9 85.4 L721.9 84.6 L721.9 79.4 L736.6 78.9 L741.1 126.6 L742.4 127.9 L782.6 127.9 L783.9 126.4 L782.9 125.6 L782.9 118.4 L781.9 117.6 L780.9 100.4 L779.9 99.6 L779.9 92.4 L778.9 91.6 L778.9 83.4 L777.9 82.6 L777.9 74.4 L776.9 73.6 L776.9 66.4 L775.9 65.6 L775.9 57.4 L774.9 56.6 L774.9 48.4 L773.9 47.6 L773.9 40.4 L772.9 39.6 L772.9 31.4 L771.9 30.6 L771.9 22.4 L770.9 21.6 L770.9 14.4 L769.9 13.6 L769.9 10.4Z       M580.4 10.1 L581.1 51.6 L582.1 52.4 L582.1 84.6 L583.1 85.4 L583.1 117.6 L584.1 118.4 L584.1 127.6 L668.6 127.9 L668.9 118.4 L667.9 117.6 L667.6 103.1 L624.9 102.6 L624.9 92.4 L623.9 91.6 L623.9 71.4 L622.9 70.6 L622.9 51.4 L621.9 50.6 L621.9 30.4 L620.9 29.6 L620.9 10.4Z       M471.4 10.1 L471.1 62.6 L470.1 63.4 L470.1 117.6 L469.1 118.4 L469.1 126.6 L470.4 127.9 L567.6 127.9 L568.9 126.6 L568.9 107.4 L567.9 106.6 L567.6 103.1 L511.9 102.6 L511.9 32.4 L566.6 31.9 L565.9 10.4Z       M363.4 10.1 L363.1 12.6 L362.1 13.4 L362.1 27.6 L361.1 28.4 L361.1 42.6 L360.1 43.4 L360.1 57.6 L359.1 58.4 L359.1 72.6 L358.1 73.4 L358.1 87.6 L357.1 88.4 L357.1 102.6 L356.1 103.4 L355.1 127.6 L453.6 127.9 L454.9 126.6 L454.9 87.4 L455.9 86.6 L456.9 10.4Z       M254.4 10.1 L254.1 13.6 L253.1 14.4 L253.1 21.6 L252.1 22.4 L252.1 30.6 L251.1 31.4 L250.1 47.6 L249.1 48.4 L249.1 56.6 L248.1 57.4 L247.1 73.6 L246.1 74.4 L245.1 91.6 L244.1 92.4 L244.1 99.6 L243.1 100.4 L242.1 117.6 L241.1 118.4 L241.1 125.6 L240.1 126.6 L241.4 127.9 L281.6 127.9 L282.9 126.6 L282.9 120.4 L283.9 119.6 L283.9 110.4 L284.9 109.6 L284.9 100.4 L285.9 99.6 L286.9 79.4 L301.6 78.9 L302.1 84.6 L301.1 85.4 L301.1 95.6 L300.1 96.4 L300.1 106.6 L299.1 107.4 L298.1 127.6 L339.6 127.9 L339.9 121.4 L340.9 120.6 L340.9 107.4 L341.9 106.6 L341.9 94.4 L342.9 93.6 L342.9 80.4 L343.9 79.6 L343.9 67.4 L331.4 67.1 L330.9 55.4 L344.6 54.9 L345.9 52.6 L345.9 39.4 L346.9 38.6 L346.9 25.4 L347.9 24.6 L347.9 12.4 L348.9 10.4Z       M145.4 10.1 L145.1 13.6 L144.1 14.4 L144.1 19.6 L143.1 20.4 L143.1 25.6 L142.1 26.4 L142.1 31.6 L141.1 32.4 L141.1 37.6 L140.1 38.4 L140.1 44.6 L139.1 45.4 L139.1 50.6 L138.1 51.4 L138.1 56.6 L137.1 57.4 L136.1 66.6 L164.1 67.4 L163.1 68.4 L162.1 80.6 L161.1 81.4 L161.1 87.6 L160.1 88.4 L160.1 94.6 L159.1 95.4 L159.1 100.6 L158.1 101.4 L157.1 113.6 L156.1 114.4 L155.1 127.6 L195.6 127.9 L196.9 126.6 L196.9 123.4 L197.9 122.6 L198.9 108.4 L199.9 107.6 L199.9 101.4 L200.9 100.6 L200.9 93.4 L201.9 92.6 L201.9 86.4 L202.9 85.6 L202.9 78.4 L203.9 77.6 L203.9 71.4 L204.9 70.6 L204.9 67.4 L232.9 66.6 L233.9 54.4 L234.9 53.6 L234.9 46.4 L235.9 45.6 L235.9 37.4 L236.9 36.6 L236.9 29.4 L237.9 28.6 L237.9 21.4 L238.9 20.6 L238.9 13.4 L239.9 12.6 L239.9 10.4 L199.4 10.1 L199.1 17.6 L198.1 18.4 L198.1 24.6 L197.1 25.4 L197.1 31.6 L196.1 32.4 L195.1 43.6 L181.4 44.1 L180.9 37.4 L181.9 36.6 L182.9 23.4 L183.9 22.6 L183.9 17.4 L184.9 16.6 L184.6 10.1Z       M130.9 10.4 L36.4 10.1 L36.1 13.6 L35.1 14.4 L35.1 18.6 L34.1 19.4 L34.1 23.6 L33.1 24.4 L33.1 27.6 L32.1 28.4 L32.1 32.6 L31.1 33.4 L31.1 37.6 L30.1 38.4 L29.1 46.6 L28.1 47.4 L28.1 51.6 L27.1 52.4 L27.1 56.6 L26.1 57.4 L26.1 60.6 L25.1 61.4 L24.1 70.6 L23.1 71.4 L23.1 74.6 L22.1 75.4 L21.1 84.6 L20.1 85.4 L20.1 88.6 L19.1 89.4 L17.1 103.6 L16.1 104.4 L16.1 107.6 L15.1 108.4 L14.1 117.6 L13.1 118.4 L13.1 121.6 L12.1 122.4 L12.1 127.6 L52.6 127.9 L54.9 123.6 L54.9 119.4 L55.9 118.6 L55.9 114.4 L56.9 113.6 L56.9 109.4 L57.9 108.6 L57.9 104.4 L58.9 103.6 L58.9 98.4 L59.9 97.6 L59.9 93.4 L60.9 92.6 L60.9 88.4 L61.9 87.6 L61.9 83.4 L62.9 82.6 L63.4 78.9 L118.6 78.9 L119.9 77.6 L119.9 72.4 L120.9 71.6 L120.9 66.4 L121.9 65.6 L121.9 60.4 L122.9 59.6 L122.9 55.4 L123.9 54.6 L123.9 49.4 L124.9 48.6 L124.9 43.4 L125.9 42.6 L125.9 37.4 L126.9 36.6 L126.9 31.4 L127.9 30.6 L127.9 25.4 L128.9 24.6 L128.9 19.4 L129.9 18.6Z"/>
+
+    <linearGradient id="letterFrontGrad" x1="0" y1="10" x2="0" y2="128" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#B9EBE7"/>
+      <stop offset="18%" stop-color="#DCF6F4"/>
+      <stop offset="34%" stop-color="#FFF8F9"/>
+      <stop offset="56%" stop-color="#FBBCCB"/>
+      <stop offset="82%" stop-color="#F88294"/>
+      <stop offset="100%" stop-color="#EC6076"/>
+    </linearGradient>
+
+    <linearGradient id="letterSideGrad" x1="0" y1="10" x2="0" y2="173" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#7EA1AD"/>
+      <stop offset="32%" stop-color="#9B8CA6"/>
+      <stop offset="68%" stop-color="#B46883"/>
+      <stop offset="84%" stop-color="#735A7C"/>
+      <stop offset="100%" stop-color="#4F4A6B"/>
+    </linearGradient>
+
+    <linearGradient id="coralGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFA5B1"/>
+      <stop offset="55%" stop-color="#F26E83"/>
+      <stop offset="100%" stop-color="#C84A63"/>
+    </linearGradient>
+
+    <pattern id="letterVoxelMosaic" width="27" height="27" patternUnits="userSpaceOnUse">
+      <rect x="0" y="0" width="9" height="9" fill="#FFFFFF" fill-opacity="0.13"/>
+      <rect x="9" y="0" width="9" height="9" fill="#000000" fill-opacity="0.035"/>
+      <rect x="18" y="0" width="9" height="9" fill="#FFFFFF" fill-opacity="0.06"/>
+      <rect x="0" y="9" width="9" height="9" fill="#000000" fill-opacity="0.045"/>
+      <rect x="9" y="9" width="9" height="9" fill="#FFFFFF" fill-opacity="0.11"/>
+      <rect x="18" y="9" width="9" height="9" fill="#000000" fill-opacity="0.05"/>
+      <rect x="0" y="18" width="9" height="9" fill="#FFFFFF" fill-opacity="0.05"/>
+      <rect x="9" y="18" width="9" height="9" fill="#000000" fill-opacity="0.03"/>
+      <rect x="18" y="18" width="9" height="9" fill="#FFFFFF" fill-opacity="0.12"/>
+    </pattern>
+
+    <pattern id="leafMosaic" width="24" height="24" patternUnits="userSpaceOnUse">
+      <rect x="0" y="0" width="8" height="8" fill="#FFFFFF" fill-opacity="0.18"/>
+      <rect x="8" y="0" width="8" height="8" fill="#000000" fill-opacity="0.06"/>
+      <rect x="16" y="0" width="8" height="8" fill="#FFFFFF" fill-opacity="0.08"/>
+      <rect x="0" y="8" width="8" height="8" fill="#000000" fill-opacity="0.07"/>
+      <rect x="8" y="8" width="8" height="8" fill="#FFFFFF" fill-opacity="0.15"/>
+      <rect x="16" y="8" width="8" height="8" fill="#000000" fill-opacity="0.05"/>
+      <rect x="0" y="16" width="8" height="8" fill="#FFFFFF" fill-opacity="0.07"/>
+      <rect x="8" y="16" width="8" height="8" fill="#000000" fill-opacity="0.05"/>
+      <rect x="16" y="16" width="8" height="8" fill="#FFFFFF" fill-opacity="0.16"/>
+    </pattern>
+
+    <pattern id="bunnyMosaic" width="48" height="48" patternUnits="userSpaceOnUse">
+      <rect x="0" y="0" width="16" height="16" fill="#FFFFFF" fill-opacity="0.12"/>
+      <rect x="16" y="0" width="16" height="16" fill="#000000" fill-opacity="0.04"/>
+      <rect x="32" y="0" width="16" height="16" fill="#FFFFFF" fill-opacity="0.06"/>
+      <rect x="0" y="16" width="16" height="16" fill="#000000" fill-opacity="0.05"/>
+      <rect x="16" y="16" width="16" height="16" fill="#FFFFFF" fill-opacity="0.10"/>
+      <rect x="32" y="16" width="16" height="16" fill="#000000" fill-opacity="0.04"/>
+      <rect x="0" y="32" width="16" height="16" fill="#FFFFFF" fill-opacity="0.05"/>
+      <rect x="16" y="32" width="16" height="16" fill="#000000" fill-opacity="0.03"/>
+      <rect x="32" y="32" width="16" height="16" fill="#FFFFFF" fill-opacity="0.11"/>
+    </pattern>
+
+    <linearGradient id="bunnyFrontGrad" x1="0" y1="240" x2="0" y2="380" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#76BFFF"/>
+      <stop offset="55%" stop-color="#4FA7F4"/>
+      <stop offset="100%" stop-color="#3DBBD6"/>
+    </linearGradient>
+    <linearGradient id="bunnySideGrad" x1="0" y1="240" x2="0" y2="380" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#4882C8"/>
+      <stop offset="60%" stop-color="#3273B8"/>
+      <stop offset="100%" stop-color="#288FA8"/>
+    </linearGradient>
+    <linearGradient id="earFrontGrad" x1="0" y1="145" x2="0" y2="245" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#B0D8FF"/>
+      <stop offset="45%" stop-color="#72B2F6"/>
+      <stop offset="100%" stop-color="#529BEB"/>
+    </linearGradient>
+
+    <filter id="softShadow" x="-10%" y="-10%" width="120%" height="125%">
+      <feDropShadow dx="0" dy="3" stdDeviation="2.5" flood-color="#2B2640" flood-opacity="0.28"/>
+    </filter>
+
+    <!-- Pure CSS timelapse animations (100% compatible with GitHub README <img> tags) -->
+    <style>
+      .outline { stroke: #38354D; stroke-width: 3.2; stroke-linejoin: round; stroke-linecap: round; }
+      .outline-thin { stroke: #38354D; stroke-width: 1.8; stroke-linejoin: round; stroke-linecap: round; }
+
+      @keyframes vineBreeze {
+        0%, 100% { transform: rotate(-1.2deg); }
+        50% { transform: rotate(1.2deg); }
+      }
+      .vine-sway {
+        transform-box: fill-box;
+        transform-origin: top center;
+        animation: vineBreeze 7s ease-in-out infinite;
+      }
+
+      @keyframes flowerBreeze {
+        0%, 100% { transform: rotate(-1.5deg); }
+        50% { transform: rotate(1.5deg); }
+      }
+      .sway-slow {
+        transform-box: fill-box;
+        transform-origin: bottom center;
+        animation: flowerBreeze 6.5s ease-in-out infinite;
+      }
+      .sway-alt {
+        transform-box: fill-box;
+        transform-origin: bottom center;
+        animation: flowerBreeze 7.8s ease-in-out -2.4s infinite;
+      }
+      .sway-fast {
+        transform-box: fill-box;
+        transform-origin: bottom center;
+        animation: flowerBreeze 5.8s ease-in-out -4.1s infinite;
+      }
+
+      @keyframes bunnyBreathe {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-3px); }
+      }
+      .bunny-head {
+        animation: bunnyBreathe 4.6s ease-in-out infinite;
+      }
+
+      @keyframes bunnyBlink {
+        0%, 44%, 48%, 94%, 100% { transform: scaleY(1); }
+        46% { transform: scaleY(0.15); }
+      }
+      .bunny-eye {
+        transform-box: fill-box;
+        transform-origin: center;
+        animation: bunnyBlink 5.2s ease-in-out infinite;
+      }
+
+      @keyframes sporeFloat {
+        0% { transform: translateY(0px); opacity: 0.15; }
+        50% { transform: translateY(-18px); opacity: 0.95; }
+        100% { transform: translateY(-34px); opacity: 0.1; }
+      }
+      .spore {
+        animation: sporeFloat 6.5s ease-in-out infinite;
+      }
+
+      @keyframes mosaicPulse {
+        0%, 100% { opacity: 0.85; }
+        50% { opacity: 1; }
+      }
+      #face-mosaic {
+        animation: mosaicPulse 8s ease-in-out infinite;
+      }
+    </style>
+  </defs>
+
+  <!-- ==================== 1. BACKGROUND SIFT TREES & VINES ==================== -->
+  <g id="layer-bg-trees">
+    <g id="left-sift-tree">
+            <rect x="188" y="258" width="36" height="134" fill="#22323A" stroke="#232536" stroke-width="1.8" stroke-linejoin="round"/>
+      <polygon points="188,258 202,248 238,248 224,258" fill="#3D5560" stroke="#232536" stroke-width="1.8" stroke-linejoin="round"/>
+      <polygon points="224,258 238,248 238,382 224,392" fill="#172228" stroke="#232536" stroke-width="1.8" stroke-linejoin="round"/>
+      <rect x="156" y="305" width="32" height="34" fill="#273842" stroke="#232536" stroke-width="1.8" stroke-linejoin="round"/>
+      <polygon points="156,305 168,297 200,297 188,305" fill="#3D5560" stroke="#232536" stroke-width="1.8" stroke-linejoin="round"/>
+      <polygon points="188,305 200,297 200,331 188,339" fill="#1B272E" stroke="#232536" stroke-width="1.8" stroke-linejoin="round"/>
+      <rect x="224" y="282" width="30" height="28" fill="#273842" stroke="#232536" stroke-width="1.8" stroke-linejoin="round"/>
+      <polygon points="224,282 236,274 266,274 254,282" fill="#3D5560" stroke="#232536" stroke-width="1.8" stroke-linejoin="round"/>
+      <polygon points="254,282 266,274 266,302 254,310" fill="#1B272E" stroke="#232536" stroke-width="1.8" stroke-linejoin="round"/>
+      <rect x="236" y="238" width="72" height="46" fill="#7CC3BE" stroke="#323046" stroke-width="1.8" stroke-linejoin="round"/>
+      <rect x="236" y="238" width="72" height="46" fill="url(#leafMosaic)" pointer-events="none"/>
+      <polygon points="236,238 252,226 324,226 308,238" fill="#D5F7F2" stroke="#323046" stroke-width="1.8" stroke-linejoin="round"/>
+      <polygon points="308,238 324,226 324,272 308,284" fill="#569A97" stroke="#323046" stroke-width="1.8" stroke-linejoin="round"/>
+      <rect x="84" y="278" width="86" height="44" fill="#8ED4CE" stroke="#323046" stroke-width="1.8" stroke-linejoin="round"/>
+      <rect x="84" y="278" width="86" height="44" fill="url(#leafMosaic)" pointer-events="none"/>
+      <polygon points="84,278 100,266 186,266 170,278" fill="#E3FAF7" stroke="#323046" stroke-width="1.8" stroke-linejoin="round"/>
+      <polygon points="170,278 186,266 186,310 170,322" fill="#64ABA7" stroke="#323046" stroke-width="1.8" stroke-linejoin="round"/>
+      <rect x="134" y="218" width="124" height="54" fill="#9EE0DA" stroke="#323046" stroke-width="1.9" stroke-linejoin="round"/>
+      <rect x="134" y="218" width="124" height="54" fill="url(#leafMosaic)" pointer-events="none"/>
+      <polygon points="134,218 152,204 276,204 258,218" fill="#E9FCFA" stroke="#323046" stroke-width="1.9" stroke-linejoin="round"/>
+      <polygon points="258,218 276,204 276,258 258,272" fill="#6EB5B1" stroke="#323046" stroke-width="1.9" stroke-linejoin="round"/>
+      <rect x="164" y="174" width="78" height="44" fill="#BCEEE9" stroke="#323046" stroke-width="1.9" stroke-linejoin="round"/>
+      <rect x="164" y="174" width="78" height="44" fill="url(#leafMosaic)" pointer-events="none"/>
+      <polygon points="164,174 180,162 258,162 242,174" fill="#F2FFFE" stroke="#323046" stroke-width="1.9" stroke-linejoin="round"/>
+      <polygon points="242,174 258,162 258,206 242,218" fill="#84CAC5" stroke="#323046" stroke-width="1.9" stroke-linejoin="round"/>
+      <rect x="116" y="246" width="46" height="36" fill="#D8F7F5" stroke="#323046" stroke-width="1.7" stroke-linejoin="round"/>
+      <rect x="116" y="246" width="46" height="36" fill="url(#leafMosaic)" pointer-events="none"/>
+      <polygon points="116,246 128,237 174,237 162,246" fill="#FFFFFF" stroke="#323046" stroke-width="1.7" stroke-linejoin="round"/>
+      <polygon points="162,246 174,237 174,273 162,282" fill="#9EDBD6" stroke="#323046" stroke-width="1.7" stroke-linejoin="round"/>
+            <g class="vine-sway" style="animation-delay:0s">
+        <rect x="92" y="324" width="15" height="23" rx="1.5" fill="#E5FAF8" stroke="#38354D" stroke-width="1.6"/>
+        <rect x="102" y="325" width="4" height="21" fill="#9FDAD5" opacity="0.65"/>
+        <rect x="92" y="350" width="15" height="23" rx="1.5" fill="#CBECE9" stroke="#38354D" stroke-width="1.6"/>
+        <rect x="102" y="351" width="4" height="21" fill="#9FDAD5" opacity="0.65"/>
+        <rect x="92" y="376" width="15" height="23" rx="1.5" fill="#E5FAF8" stroke="#38354D" stroke-width="1.6"/>
+        <rect x="102" y="377" width="4" height="21" fill="#9FDAD5" opacity="0.65"/>
+        <rect x="92" y="402" width="15" height="23" rx="1.5" fill="#CBECE9" stroke="#38354D" stroke-width="1.6"/>
+        <rect x="102" y="403" width="4" height="21" fill="#9FDAD5" opacity="0.65"/>
+        <rect x="92" y="428" width="15" height="23" rx="1.5" fill="#E5FAF8" stroke="#38354D" stroke-width="1.6"/>
+        <rect x="102" y="429" width="4" height="21" fill="#9FDAD5" opacity="0.65"/>
+        <rect x="92" y="454" width="15" height="23" rx="1.5" fill="#FFFFFF" stroke="#38354D" stroke-width="1.6"/>
+        <rect x="102" y="455" width="4" height="21" fill="#9FDAD5" opacity="0.65"/>
+      </g>
+      <g class="vine-sway" style="animation-delay:-1.5s">
+        <rect x="124" y="284" width="14" height="21" rx="1.5" fill="#E5FAF8" stroke="#38354D" stroke-width="1.6"/>
+        <rect x="133" y="285" width="4" height="19" fill="#9FDAD5" opacity="0.65"/>
+        <rect x="124" y="308" width="14" height="21" rx="1.5" fill="#CBECE9" stroke="#38354D" stroke-width="1.6"/>
+        <rect x="133" y="309" width="4" height="19" fill="#9FDAD5" opacity="0.65"/>
+        <rect x="124" y="332" width="14" height="21" rx="1.5" fill="#E5FAF8" stroke="#38354D" stroke-width="1.6"/>
+        <rect x="133" y="333" width="4" height="19" fill="#9FDAD5" opacity="0.65"/>
+        <rect x="124" y="356" width="14" height="21" rx="1.5" fill="#FFFFFF" stroke="#38354D" stroke-width="1.6"/>
+        <rect x="133" y="357" width="4" height="19" fill="#9FDAD5" opacity="0.65"/>
+      </g>
+      <g class="vine-sway" style="animation-delay:-3.0s">
+        <rect x="150" y="324" width="14" height="21" rx="1.5" fill="#E5FAF8" stroke="#38354D" stroke-width="1.6"/>
+        <rect x="159" y="325" width="4" height="19" fill="#9FDAD5" opacity="0.65"/>
+        <rect x="150" y="348" width="14" height="21" rx="1.5" fill="#CBECE9" stroke="#38354D" stroke-width="1.6"/>
+        <rect x="159" y="349" width="4" height="19" fill="#9FDAD5" opacity="0.65"/>
+        <rect x="150" y="372" width="14" height="21" rx="1.5" fill="#FFFFFF" stroke="#38354D" stroke-width="1.6"/>
+        <rect x="159" y="373" width="4" height="19" fill="#9FDAD5" opacity="0.65"/>
+      </g>
+      <g class="vine-sway" style="animation-delay:-0.8s">
+        <rect x="242" y="274" width="15" height="22" rx="1.5" fill="#E5FAF8" stroke="#38354D" stroke-width="1.6"/>
+        <rect x="252" y="275" width="4" height="20" fill="#9FDAD5" opacity="0.65"/>
+        <rect x="242" y="299" width="15" height="22" rx="1.5" fill="#CBECE9" stroke="#38354D" stroke-width="1.6"/>
+        <rect x="252" y="300" width="4" height="20" fill="#9FDAD5" opacity="0.65"/>
+        <rect x="242" y="324" width="15" height="22" rx="1.5" fill="#E5FAF8" stroke="#38354D" stroke-width="1.6"/>
+        <rect x="252" y="325" width="4" height="20" fill="#9FDAD5" opacity="0.65"/>
+        <rect x="242" y="349" width="15" height="22" rx="1.5" fill="#FFFFFF" stroke="#38354D" stroke-width="1.6"/>
+        <rect x="252" y="350" width="4" height="20" fill="#9FDAD5" opacity="0.65"/>
+      </g>
+      <g class="vine-sway" style="animation-delay:-2.2s">
+        <rect x="286" y="286" width="14" height="21" rx="1.5" fill="#E5FAF8" stroke="#38354D" stroke-width="1.6"/>
+        <rect x="295" y="287" width="4" height="19" fill="#9FDAD5" opacity="0.65"/>
+        <rect x="286" y="310" width="14" height="21" rx="1.5" fill="#CBECE9" stroke="#38354D" stroke-width="1.6"/>
+        <rect x="295" y="311" width="4" height="19" fill="#9FDAD5" opacity="0.65"/>
+        <rect x="286" y="334" width="14" height="21" rx="1.5" fill="#FFFFFF" stroke="#38354D" stroke-width="1.6"/>
+        <rect x="295" y="335" width="4" height="19" fill="#9FDAD5" opacity="0.65"/>
+      </g>
+    </g>
+    <g id="right-sift-tree">
+            <rect x="1766" y="434" width="66" height="44" fill="#8FD4CE" stroke="#323046" stroke-width="1.8" stroke-linejoin="round"/>
+      <rect x="1766" y="434" width="66" height="44" fill="url(#leafMosaic)" pointer-events="none"/>
+      <polygon points="1766,434 1781,423 1847,423 1832,434" fill="#E5FAF7" stroke="#323046" stroke-width="1.8" stroke-linejoin="round"/>
+      <polygon points="1832,434 1847,423 1847,467 1832,478" fill="#63AAA6" stroke="#323046" stroke-width="1.8" stroke-linejoin="round"/>
+      <rect x="1790" y="404" width="48" height="32" fill="#B7ECE7" stroke="#323046" stroke-width="1.8" stroke-linejoin="round"/>
+      <rect x="1790" y="404" width="48" height="32" fill="url(#leafMosaic)" pointer-events="none"/>
+      <polygon points="1790,404 1803,394 1851,394 1838,404" fill="#F0FFFD" stroke="#323046" stroke-width="1.8" stroke-linejoin="round"/>
+      <polygon points="1838,404 1851,394 1851,426 1838,436" fill="#7FC4BF" stroke="#323046" stroke-width="1.8" stroke-linejoin="round"/>
+            <g class="vine-sway" style="animation-delay:-1.2s">
+        <rect x="1776" y="480" width="14" height="22" rx="1.5" fill="#E5FAF8" stroke="#38354D" stroke-width="1.6"/>
+        <rect x="1785" y="481" width="4" height="20" fill="#9FDAD5" opacity="0.65"/>
+        <rect x="1776" y="505" width="14" height="22" rx="1.5" fill="#CBECE9" stroke="#38354D" stroke-width="1.6"/>
+        <rect x="1785" y="506" width="4" height="20" fill="#9FDAD5" opacity="0.65"/>
+        <rect x="1776" y="530" width="14" height="22" rx="1.5" fill="#E5FAF8" stroke="#38354D" stroke-width="1.6"/>
+        <rect x="1785" y="531" width="4" height="20" fill="#9FDAD5" opacity="0.65"/>
+        <rect x="1776" y="555" width="14" height="22" rx="1.5" fill="#FFFFFF" stroke="#38354D" stroke-width="1.6"/>
+        <rect x="1785" y="556" width="4" height="20" fill="#9FDAD5" opacity="0.65"/>
+      </g>
+      <g class="vine-sway" style="animation-delay:-2.6s">
+        <rect x="1812" y="480" width="14" height="22" rx="1.5" fill="#E5FAF8" stroke="#38354D" stroke-width="1.6"/>
+        <rect x="1821" y="481" width="4" height="20" fill="#9FDAD5" opacity="0.65"/>
+        <rect x="1812" y="505" width="14" height="22" rx="1.5" fill="#CBECE9" stroke="#38354D" stroke-width="1.6"/>
+        <rect x="1821" y="506" width="4" height="20" fill="#9FDAD5" opacity="0.65"/>
+        <rect x="1812" y="530" width="14" height="22" rx="1.5" fill="#E5FAF8" stroke="#38354D" stroke-width="1.6"/>
+        <rect x="1821" y="531" width="4" height="20" fill="#9FDAD5" opacity="0.65"/>
+        <rect x="1812" y="555" width="14" height="22" rx="1.5" fill="#CBECE9" stroke="#38354D" stroke-width="1.6"/>
+        <rect x="1821" y="556" width="4" height="20" fill="#9FDAD5" opacity="0.65"/>
+        <rect x="1812" y="580" width="14" height="22" rx="1.5" fill="#FFFFFF" stroke="#38354D" stroke-width="1.6"/>
+        <rect x="1821" y="581" width="4" height="20" fill="#9FDAD5" opacity="0.65"/>
+      </g>
+    </g>
+  </g>
+
+  <!-- ==================== 2. BACKGROUND CORAL / GRASS TUFTS ==================== -->
+  <g id="layer-bg-coral">
+    <rect x="338.4" y="374.9" width="173.9" height="17.1" fill="url(#coralGrad)" stroke="#38354D" stroke-width="1.7" stroke-linejoin="round"/>
+      <rect x="338.4" y="350.2" width="17.1" height="41.8" fill="url(#coralGrad)" stroke="#38354D" stroke-width="1.7" stroke-linejoin="round"/>
+      <polygon points="355.5,350.2 362.1,353.1 362.1,392.0 355.5,392.0" fill="#BA415B" stroke="#38354D" stroke-width="1.6" stroke-linejoin="round"/>
+      <rect x="340.3" y="352.1" width="13.3" height="4.8" fill="#FFC4CE" opacity="0.75"/>
+      <rect x="365.0" y="321.7" width="19.0" height="70.3" fill="url(#coralGrad)" stroke="#38354D" stroke-width="1.7" stroke-linejoin="round"/>
+      <polygon points="384.0,321.7 391.6,324.6 391.6,392.0 384.0,392.0" fill="#BA415B" stroke="#38354D" stroke-width="1.6" stroke-linejoin="round"/>
+      <rect x="366.9" y="323.6" width="15.2" height="4.8" fill="#FFC4CE" opacity="0.75"/>
+      <rect x="395.4" y="295.1" width="22.8" height="96.9" fill="url(#coralGrad)" stroke="#38354D" stroke-width="1.7" stroke-linejoin="round"/>
+      <polygon points="418.2,295.1 427.7,298.0 427.7,392.0 418.2,392.0" fill="#BA415B" stroke="#38354D" stroke-width="1.6" stroke-linejoin="round"/>
+      <rect x="397.3" y="297.0" width="19.0" height="4.8" fill="#FFC4CE" opacity="0.75"/>
+      <rect x="429.6" y="327.4" width="20.9" height="64.6" fill="url(#coralGrad)" stroke="#38354D" stroke-width="1.7" stroke-linejoin="round"/>
+      <polygon points="450.5,327.4 458.1,330.2 458.1,392.0 450.5,392.0" fill="#BA415B" stroke="#38354D" stroke-width="1.6" stroke-linejoin="round"/>
+      <rect x="431.5" y="329.3" width="17.1" height="4.8" fill="#FFC4CE" opacity="0.75"/>
+      <rect x="460.0" y="310.3" width="19.0" height="81.7" fill="url(#coralGrad)" stroke="#38354D" stroke-width="1.7" stroke-linejoin="round"/>
+      <polygon points="479.0,310.3 487.6,313.2 487.6,392.0 479.0,392.0" fill="#BA415B" stroke="#38354D" stroke-width="1.6" stroke-linejoin="round"/>
+      <rect x="461.9" y="312.2" width="15.2" height="4.8" fill="#FFC4CE" opacity="0.75"/>
+      <rect x="488.5" y="346.4" width="17.1" height="45.6" fill="url(#coralGrad)" stroke="#38354D" stroke-width="1.7" stroke-linejoin="round"/>
+      <polygon points="505.6,346.4 512.2,349.2 512.2,392.0 505.6,392.0" fill="#BA415B" stroke="#38354D" stroke-width="1.6" stroke-linejoin="round"/>
+      <rect x="490.4" y="348.3" width="13.3" height="4.8" fill="#FFC4CE" opacity="0.75"/>
+    <rect x="722.0" y="374.0" width="210.0" height="18.0" fill="url(#coralGrad)" stroke="#38354D" stroke-width="1.7" stroke-linejoin="round"/>
+      <rect x="722.0" y="354.0" width="18.0" height="38.0" fill="url(#coralGrad)" stroke="#38354D" stroke-width="1.7" stroke-linejoin="round"/>
+      <polygon points="740.0,354.0 747.0,357.0 747.0,392.0 740.0,392.0" fill="#BA415B" stroke="#38354D" stroke-width="1.6" stroke-linejoin="round"/>
+      <rect x="724.0" y="356.0" width="14.0" height="5.0" fill="#FFC4CE" opacity="0.75"/>
+      <rect x="748.0" y="326.0" width="20.0" height="66.0" fill="url(#coralGrad)" stroke="#38354D" stroke-width="1.7" stroke-linejoin="round"/>
+      <polygon points="768.0,326.0 776.0,329.0 776.0,392.0 768.0,392.0" fill="#BA415B" stroke="#38354D" stroke-width="1.6" stroke-linejoin="round"/>
+      <rect x="750.0" y="328.0" width="16.0" height="5.0" fill="#FFC4CE" opacity="0.75"/>
+      <rect x="778.0" y="296.0" width="22.0" height="96.0" fill="url(#coralGrad)" stroke="#38354D" stroke-width="1.7" stroke-linejoin="round"/>
+      <polygon points="800.0,296.0 809.0,299.0 809.0,392.0 800.0,392.0" fill="#BA415B" stroke="#38354D" stroke-width="1.6" stroke-linejoin="round"/>
+      <rect x="780.0" y="298.0" width="18.0" height="5.0" fill="#FFC4CE" opacity="0.75"/>
+      <rect x="812.0" y="270.0" width="26.0" height="122.0" fill="url(#coralGrad)" stroke="#38354D" stroke-width="1.7" stroke-linejoin="round"/>
+      <polygon points="838.0,270.0 849.0,273.0 849.0,392.0 838.0,392.0" fill="#BA415B" stroke="#38354D" stroke-width="1.6" stroke-linejoin="round"/>
+      <rect x="814.0" y="272.0" width="22.0" height="5.0" fill="#FFC4CE" opacity="0.75"/>
+      <rect x="850.0" y="300.0" width="22.0" height="92.0" fill="url(#coralGrad)" stroke="#38354D" stroke-width="1.7" stroke-linejoin="round"/>
+      <polygon points="872.0,300.0 881.0,303.0 881.0,392.0 872.0,392.0" fill="#BA415B" stroke="#38354D" stroke-width="1.6" stroke-linejoin="round"/>
+      <rect x="852.0" y="302.0" width="18.0" height="5.0" fill="#FFC4CE" opacity="0.75"/>
+      <rect x="882.0" y="322.0" width="20.0" height="70.0" fill="url(#coralGrad)" stroke="#38354D" stroke-width="1.7" stroke-linejoin="round"/>
+      <polygon points="902.0,322.0 910.0,325.0 910.0,392.0 902.0,392.0" fill="#BA415B" stroke="#38354D" stroke-width="1.6" stroke-linejoin="round"/>
+      <rect x="884.0" y="324.0" width="16.0" height="5.0" fill="#FFC4CE" opacity="0.75"/>
+      <rect x="910.0" y="350.0" width="16.0" height="42.0" fill="url(#coralGrad)" stroke="#38354D" stroke-width="1.7" stroke-linejoin="round"/>
+      <polygon points="926.0,350.0 932.0,353.0 932.0,392.0 926.0,392.0" fill="#BA415B" stroke="#38354D" stroke-width="1.6" stroke-linejoin="round"/>
+      <rect x="912.0" y="352.0" width="12.0" height="5.0" fill="#FFC4CE" opacity="0.75"/>
+    <rect x="1409.6" y="375.8" width="140.4" height="16.2" fill="url(#coralGrad)" stroke="#38354D" stroke-width="1.7" stroke-linejoin="round"/>
+      <rect x="1409.6" y="354.2" width="16.2" height="37.8" fill="url(#coralGrad)" stroke="#38354D" stroke-width="1.7" stroke-linejoin="round"/>
+      <polygon points="1425.8,354.2 1432.1,356.9 1432.1,392.0 1425.8,392.0" fill="#BA415B" stroke="#38354D" stroke-width="1.6" stroke-linejoin="round"/>
+      <rect x="1411.4" y="356.0" width="12.6" height="4.5" fill="#FFC4CE" opacity="0.75"/>
+      <rect x="1436.6" y="323.6" width="19.8" height="68.4" fill="url(#coralGrad)" stroke="#38354D" stroke-width="1.7" stroke-linejoin="round"/>
+      <polygon points="1456.4,323.6 1463.6,326.3 1463.6,392.0 1456.4,392.0" fill="#BA415B" stroke="#38354D" stroke-width="1.6" stroke-linejoin="round"/>
+      <rect x="1438.4" y="325.4" width="16.2" height="4.5" fill="#FFC4CE" opacity="0.75"/>
+      <rect x="1467.2" y="345.2" width="18.0" height="46.8" fill="url(#coralGrad)" stroke="#38354D" stroke-width="1.7" stroke-linejoin="round"/>
+      <polygon points="1485.2,345.2 1491.5,347.9 1491.5,392.0 1485.2,392.0" fill="#BA415B" stroke="#38354D" stroke-width="1.6" stroke-linejoin="round"/>
+      <rect x="1469.0" y="347.0" width="14.4" height="4.5" fill="#FFC4CE" opacity="0.75"/>
+      <rect x="1494.2" y="312.8" width="21.6" height="79.2" fill="url(#coralGrad)" stroke="#38354D" stroke-width="1.7" stroke-linejoin="round"/>
+      <polygon points="1515.8,312.8 1523.9,315.5 1523.9,392.0 1515.8,392.0" fill="#BA415B" stroke="#38354D" stroke-width="1.6" stroke-linejoin="round"/>
+      <rect x="1496.0" y="314.6" width="18.0" height="4.5" fill="#FFC4CE" opacity="0.75"/>
+      <rect x="1524.8" y="336.2" width="18.0" height="55.8" fill="url(#coralGrad)" stroke="#38354D" stroke-width="1.7" stroke-linejoin="round"/>
+      <polygon points="1542.8,336.2 1550.0,338.9 1550.0,392.0 1542.8,392.0" fill="#BA415B" stroke="#38354D" stroke-width="1.6" stroke-linejoin="round"/>
+      <rect x="1526.6" y="338.0" width="14.4" height="4.5" fill="#FFC4CE" opacity="0.75"/>
+  </g>
+
+  <!-- ==================== 3. ORIGINAL PYROCLAST 3D LETTERS ==================== -->
+  <g id="layer-letters" transform="translate(105, 378) scale(1.70, 1.75)">
+    <path id="outline" fill="#38354D" fill-rule="evenodd" d="M518.9 81.4 L519.9 80.6 L569.4 80.6 L570.6 81.4 L571.1 92.6 L570.1 93.4 L519.9 93.4 L518.9 92.6Z       M0.1 129.1 L0.1 131.9 L2.9 134.1 L31.4 172.9 L85.4 172.9 L93.4 127.6 L94.9 125.9 L144.4 125.9 L144.9 131.9 L166.6 172.9 L220.9 172.9 L226.9 121.4 L228.6 114.6 L232.6 115.4 L231.1 131.4 L248.1 172.9 L884.4 172.9 L904.4 137.9 L905.6 138.4 L911.4 172.9 L965.6 172.9 L994.9 130.6 L982.1 67.4 L1002.9 34.6 L1002.9 32.6 L995.4 0.1 L668.6 0.1 L659.6 47.4 L662.6 92.6 L661.4 93.4 L633.6 93.4 L632.4 92.6 L627.9 0.1 L28.6 0.1Z"/>
+    <path id="side" fill="url(#letterSideGrad)" fill-rule="evenodd" d="M718.4 32.9 L732.1 33.4 L732.1 43.6 L733.1 44.4 L733.6 55.1 L719.9 54.6 L718.9 35.4 L717.9 34.6Z       M402.4 32.9 L416.1 33.4 L415.1 35.4 L415.1 57.6 L414.1 58.4 L414.1 81.6 L413.1 82.4 L412.6 103.1 L398.9 102.6Z       M292.4 32.9 L306.1 33.4 L305.1 35.4 L305.1 45.6 L304.1 46.4 L303.6 55.1 L289.9 54.6 L290.9 53.6 L290.9 44.4 L291.9 43.6Z       M73.4 32.9 L86.1 33.4 L81.6 55.1 L68.9 54.6 L68.9 50.4 L69.9 49.6 L71.9 35.4Z       M892.4 9.1 L896.4 32.9 L924.1 33.4 L925.1 42.6 L926.1 43.4 L926.1 47.6 L927.1 48.4 L927.1 53.6 L928.1 54.4 L928.1 58.6 L929.1 59.4 L929.1 64.6 L930.1 65.4 L930.1 69.6 L931.1 70.4 L931.1 75.6 L932.1 76.4 L932.1 80.6 L933.1 81.4 L933.1 86.6 L934.1 87.4 L934.1 91.6 L935.1 92.4 L935.1 97.6 L936.1 98.4 L936.1 102.6 L937.1 103.4 L937.1 108.6 L938.1 109.4 L938.1 113.6 L939.1 114.4 L939.1 119.6 L940.1 120.4 L940.1 124.6 L941.1 125.4 L941.1 128.6 L940.1 130.6 L938.1 132.4 L934.1 140.6 L930.1 145.4 L926.1 153.6 L924.1 155.4 L921.1 161.6 L919.1 163.6 L959.6 163.9 L964.9 156.6 L964.9 155.4 L967.9 152.6 L967.9 151.4 L971.9 146.6 L971.9 145.4 L973.9 143.6 L973.9 142.4 L975.9 140.6 L975.9 139.4 L977.9 137.6 L977.9 136.4 L979.9 134.6 L979.9 133.4 L981.9 131.6 L981.9 130.4 L983.9 128.6 L983.9 122.4 L982.9 121.6 L982.9 117.4 L981.9 116.6 L981.9 112.4 L980.9 111.6 L980.9 107.4 L979.9 106.6 L979.9 102.4 L978.9 101.6 L978.9 97.4 L977.9 96.6 L977.9 92.4 L976.9 91.6 L976.9 87.4 L975.9 86.6 L975.9 82.4 L974.9 81.6 L974.9 77.4 L973.9 76.6 L973.9 72.4 L972.9 71.6 L972.9 67.4 L971.9 66.6 L971.9 62.4 L970.9 61.6 L970.9 57.4 L969.9 56.6 L969.9 52.4 L968.9 51.6 L968.9 47.4 L967.9 46.6 L967.9 42.4 L966.9 41.6 L965.9 33.4 L992.6 32.9 L992.9 30.4 L991.9 29.6 L991.9 26.4 L990.9 25.6 L990.9 21.4 L989.9 20.6 L989.9 16.4 L988.9 15.6 L988.9 11.4 L987.6 9.1Z       M784.4 9.1 L785.1 25.6 L786.1 26.4 L786.1 33.6 L787.1 34.4 L787.1 41.6 L788.1 42.4 L788.1 49.6 L789.1 50.4 L789.1 58.6 L790.1 59.4 L790.1 66.6 L791.1 67.4 L791.1 74.6 L792.1 75.4 L792.1 78.6 L847.6 78.9 L848.1 81.6 L849.1 82.4 L849.1 88.6 L850.1 89.4 L851.1 102.6 L795.4 103.1 L795.1 107.6 L796.1 108.4 L796.1 115.6 L797.1 116.4 L798.1 129.6 L795.1 134.4 L795.1 136.6 L793.1 139.4 L791.1 146.6 L788.1 151.4 L788.1 153.6 L786.1 156.4 L784.1 163.6 L877.6 163.9 L882.9 156.6 L885.9 149.4 L887.9 147.6 L890.9 140.4 L892.9 138.6 L895.9 131.4 L898.9 127.6 L897.9 125.6 L897.9 120.4 L896.9 119.6 L896.9 114.4 L895.9 113.6 L895.9 108.4 L894.9 107.6 L894.9 102.4 L893.9 101.6 L893.9 96.4 L892.9 95.6 L892.9 90.4 L891.9 89.6 L891.9 84.4 L890.9 83.6 L890.9 78.4 L889.9 77.6 L889.9 71.4 L888.9 70.6 L888.9 65.4 L887.9 64.6 L886.9 55.4 L831.4 55.1 L830.9 49.4 L829.9 48.6 L829.9 42.4 L828.9 41.6 L828.9 35.4 L827.9 33.4 L882.6 32.9 L882.9 29.4 L881.9 28.6 L881.9 23.4 L880.9 22.6 L880.9 17.4 L879.9 16.6 L879.9 11.4 L878.9 9.4Z       M675.4 9.1 L676.1 32.6 L677.1 33.4 L678.1 59.6 L679.1 60.4 L679.1 73.6 L680.1 74.4 L681.1 100.6 L682.1 101.4 L682.1 114.6 L683.1 115.4 L683.1 132.6 L682.1 133.4 L682.1 136.6 L681.1 137.4 L681.1 140.6 L680.1 141.4 L680.1 144.6 L679.1 145.4 L679.1 148.6 L678.1 149.4 L678.1 152.6 L677.1 153.4 L677.1 156.6 L676.1 157.4 L675.1 163.6 L714.6 163.9 L716.9 160.6 L716.9 157.4 L717.9 156.6 L717.9 154.4 L718.9 153.6 L718.9 151.4 L720.9 147.6 L720.9 144.4 L721.9 143.6 L721.9 141.4 L722.9 140.6 L722.9 138.4 L724.9 134.6 L724.9 131.4 L726.9 127.6 L726.9 123.4 L725.9 122.6 L725.9 112.4 L724.9 111.6 L724.9 101.4 L723.9 100.6 L723.9 90.4 L722.9 89.6 L722.9 79.4 L735.6 78.9 L736.1 84.6 L737.1 85.4 L737.1 94.6 L738.1 95.4 L738.1 104.6 L739.1 105.4 L739.1 115.6 L740.1 116.4 L740.1 125.6 L741.1 126.4 L741.1 128.6 L740.1 129.4 L740.1 131.6 L739.1 132.4 L739.1 134.6 L738.1 135.4 L738.1 137.6 L737.1 138.4 L737.1 140.6 L736.1 141.4 L736.1 143.6 L735.1 144.4 L735.1 146.6 L734.1 147.4 L734.1 149.6 L732.1 153.4 L732.1 156.6 L731.1 157.4 L731.1 159.6 L729.1 163.6 L769.6 163.9 L771.9 159.6 L772.9 154.4 L774.9 151.6 L774.9 149.4 L776.9 146.6 L776.9 144.4 L778.9 141.6 L778.9 139.4 L780.9 136.6 L781.9 131.4 L783.9 128.6 L783.9 121.4 L782.9 120.6 L782.9 113.4 L781.9 112.6 L781.9 104.4 L780.9 103.6 L780.9 96.4 L779.9 95.6 L779.9 87.4 L778.9 86.6 L778.9 78.4 L777.9 77.6 L776.9 61.4 L775.9 60.6 L775.9 52.4 L774.9 51.6 L773.9 35.4 L772.9 34.6 L772.9 26.4 L771.9 25.6 L771.9 18.4 L770.9 17.6 L770.9 9.4Z       M580.4 9.1 L580.1 35.6 L581.1 36.4 L582.1 101.6 L583.1 102.4 L583.1 128.6 L584.1 129.6 L583.1 130.4 L583.1 139.6 L582.1 140.4 L582.1 148.6 L581.1 149.4 L581.1 158.6 L580.1 159.4 L580.1 163.6 L660.6 163.9 L661.9 161.6 L661.9 158.4 L662.9 157.6 L662.9 154.4 L663.9 153.6 L663.9 149.4 L664.9 148.6 L664.9 145.4 L665.9 144.6 L665.9 140.4 L666.9 139.6 L666.9 136.4 L667.9 135.6 L667.9 131.4 L669.9 127.6 L669.9 125.4 L668.9 124.6 L668.9 110.4 L667.9 109.6 L667.9 103.4 L626.4 103.1 L624.9 101.6 L624.9 81.4 L623.9 80.6 L623.9 61.4 L622.9 60.6 L622.9 40.4 L621.9 39.6 L621.9 19.4 L620.9 18.6 L620.9 9.4Z       M471.4 9.1 L471.1 34.6 L470.1 35.4 L470.1 89.6 L469.1 90.4 L469.1 130.6 L470.1 131.4 L471.1 162.6 L472.4 163.9 L565.6 163.9 L565.9 159.4 L566.9 158.6 L566.9 147.4 L567.9 146.6 L567.9 134.4 L568.9 133.6 L568.9 103.4 L511.9 102.6 L511.9 33.4 L566.6 32.9 L566.9 9.4Z       M362.4 9.1 L362.1 19.6 L361.1 20.4 L361.1 34.6 L360.1 35.4 L360.1 49.6 L359.1 50.4 L359.1 64.6 L358.1 65.4 L358.1 79.6 L357.1 80.4 L357.1 94.6 L356.1 95.4 L356.1 109.6 L355.1 110.4 L355.1 124.6 L354.1 125.4 L354.1 127.6 L356.1 131.4 L356.1 135.6 L357.1 136.4 L358.1 144.6 L359.1 145.4 L360.1 153.6 L361.1 154.4 L361.1 157.6 L362.1 158.4 L362.1 161.6 L363.1 163.6 L456.6 163.9 L456.9 151.4 L455.9 150.6 L455.9 139.4 L454.9 138.6 L454.9 108.4 L455.9 107.6 L455.9 67.4 L456.9 66.6 L456.9 26.4 L457.9 25.6 L457.9 9.4Z       M253.4 9.1 L252.1 25.6 L251.1 26.4 L251.1 34.6 L250.1 35.4 L250.1 43.6 L249.1 44.4 L249.1 51.6 L248.1 52.4 L248.1 60.6 L247.1 61.4 L247.1 69.6 L246.1 70.4 L246.1 77.6 L245.1 78.4 L245.1 86.6 L244.1 87.4 L244.1 95.6 L243.1 96.4 L243.1 103.6 L242.1 104.4 L242.1 112.6 L241.1 113.4 L241.1 120.6 L240.1 121.4 L240.1 128.6 L242.1 131.4 L243.1 136.6 L245.1 139.4 L245.1 141.6 L247.1 144.4 L247.1 146.6 L249.1 149.4 L249.1 151.6 L251.1 154.4 L251.1 156.6 L252.1 157.4 L252.1 159.6 L254.1 163.6 L294.9 163.6 L292.9 159.6 L292.9 157.4 L291.9 156.6 L291.9 153.4 L290.9 152.6 L290.9 150.4 L289.9 149.6 L289.9 147.4 L288.9 146.6 L288.9 144.4 L287.9 143.6 L287.9 141.4 L286.9 140.6 L286.9 138.4 L285.9 137.6 L282.9 126.4 L283.9 125.6 L283.9 116.4 L284.9 115.6 L284.9 105.4 L285.9 104.6 L285.9 95.4 L286.9 94.6 L286.9 85.4 L287.9 84.6 L287.9 79.4 L300.6 78.9 L301.1 89.6 L300.1 90.4 L300.1 100.6 L299.1 101.4 L299.1 111.6 L298.1 112.4 L298.1 122.6 L297.1 123.4 L297.1 127.6 L299.1 131.4 L299.1 134.6 L300.1 135.4 L300.1 137.6 L301.1 138.4 L301.1 140.6 L303.1 144.4 L303.1 147.6 L304.1 148.4 L304.1 150.6 L305.1 151.4 L308.1 162.6 L309.4 163.9 L348.6 163.9 L348.9 161.4 L347.9 160.6 L347.9 157.4 L346.9 156.6 L346.9 153.4 L345.9 152.6 L345.9 149.4 L344.9 148.6 L344.9 145.4 L343.9 144.6 L343.9 141.4 L342.9 140.6 L342.9 137.4 L341.9 136.6 L341.9 133.4 L340.9 132.6 L340.9 115.4 L341.9 114.6 L341.9 101.4 L342.9 100.6 L342.9 87.4 L343.9 86.6 L343.9 74.4 L344.9 73.6 L344.9 67.4 L331.4 67.1 L330.9 61.4 L331.9 60.6 L332.4 55.9 L344.6 55.9 L345.9 54.6 L346.9 33.4 L347.9 32.6 L347.9 19.4 L348.9 18.6 L348.9 9.4Z       M145.4 9.1 L144.1 11.4 L144.1 16.6 L143.1 17.4 L143.1 22.6 L142.1 23.4 L142.1 28.6 L141.1 29.4 L141.1 34.6 L140.1 35.4 L140.1 40.6 L139.1 41.4 L139.1 46.6 L138.1 47.4 L138.1 52.6 L137.1 53.4 L137.1 58.6 L136.1 59.4 L136.1 64.6 L135.1 66.6 L136.4 67.9 L163.1 68.4 L154.1 127.6 L171.1 161.6 L173.4 163.9 L212.6 163.9 L212.9 162.4 L210.9 159.6 L210.9 157.4 L205.9 148.6 L205.9 146.4 L201.9 139.6 L201.9 137.4 L196.9 128.6 L197.9 126.6 L197.9 120.4 L198.9 119.6 L198.9 113.4 L199.9 112.6 L200.9 98.4 L201.9 97.6 L202.9 83.4 L203.9 82.6 L204.9 68.4 L232.6 67.9 L233.9 66.6 L233.9 59.4 L234.9 58.6 L234.9 50.4 L235.9 49.6 L235.9 42.4 L236.9 41.6 L236.9 34.4 L237.9 33.6 L237.9 26.4 L238.9 25.6 L239.9 9.4 L199.4 9.1 L199.1 12.6 L198.1 13.4 L198.1 20.6 L197.1 21.4 L197.1 27.6 L196.1 28.4 L196.1 34.6 L195.1 35.4 L195.1 41.6 L193.6 43.1 L181.4 43.1 L180.9 41.4 L181.9 40.6 L182.9 27.4 L183.9 26.6 L184.9 14.4 L185.9 13.6 L185.6 9.1Z       M131.6 9.1 L36.1 9.4 L35.1 11.4 L35.1 15.6 L34.1 16.4 L34.1 20.6 L33.1 21.4 L33.1 25.6 L32.1 26.4 L32.1 29.6 L31.1 30.4 L31.1 34.6 L30.1 35.4 L30.1 39.6 L29.1 40.4 L29.1 43.6 L28.1 44.4 L27.1 53.6 L26.1 54.4 L26.1 57.6 L25.1 58.4 L23.1 72.6 L22.1 73.4 L22.1 76.6 L21.1 77.4 L20.1 86.6 L19.1 87.4 L19.1 90.6 L18.1 91.4 L17.1 100.6 L16.1 101.4 L16.1 104.6 L15.1 105.4 L15.1 109.6 L14.1 110.4 L14.1 114.6 L13.1 115.4 L13.1 119.6 L12.1 120.4 L11.1 127.6 L37.4 163.9 L77.9 163.6 L69.9 152.6 L69.9 151.4 L67.9 149.6 L67.9 148.4 L65.9 146.6 L65.9 145.4 L63.9 143.6 L63.9 142.4 L61.9 140.6 L61.9 139.4 L59.9 137.6 L59.9 136.4 L57.9 134.6 L57.9 133.4 L55.9 131.6 L55.9 130.4 L53.9 128.6 L54.9 126.6 L54.9 122.4 L55.9 121.6 L55.9 117.4 L56.9 116.6 L56.9 112.4 L57.9 111.6 L57.9 107.4 L58.9 106.6 L58.9 101.4 L59.9 100.6 L59.9 96.4 L60.9 95.6 L62.9 81.4 L64.4 78.9 L119.9 78.6Z"/>
+    <use id="face" href="#faceShape" fill="url(#letterFrontGrad)"/>
+    <use id="face-mosaic" href="#faceShape" fill="url(#letterVoxelMosaic)" pointer-events="none"/>
+  </g>
+
+  <!-- ==================== 4. TOP CENTER BLUE SIFT BUNNY ==================== -->
+  <g id="layer-bunny" filter="url(#softShadow)">
+    <g class="bunny-head">
+      <polygon class="outline" fill="#3B6EB5" points="972,152 997,143 997,241 972,250"/>
+      <polygon class="outline" fill="#C4E2FF" points="972,152 997,143 1053,146 1029,156"/>
+      <polygon class="outline" fill="url(#earFrontGrad)" points="997,143 1053,146 1053,241 997,241"/>
+      <rect x="999" y="146" width="26" height="22" fill="#A9D6FF" opacity="0.65"/>
+      <rect x="1025" y="168" width="26" height="24" fill="#5A9EEB" opacity="0.45"/>
+
+      <polygon class="outline" fill="#3B6EB5" points="1075,160 1099,151 1099,244 1075,252"/>
+      <polygon class="outline" fill="#C4E2FF" points="1075,160 1099,151 1155,154 1131,164"/>
+      <polygon class="outline" fill="url(#earFrontGrad)" points="1099,151 1155,154 1155,244 1099,244"/>
+      <rect x="1101" y="154" width="26" height="22" fill="#A9D6FF" opacity="0.65"/>
+      <rect x="1127" y="176" width="26" height="24" fill="#5A9EEB" opacity="0.45"/>
+
+      <polygon class="outline" fill="url(#bunnySideGrad)" points="913,264 973,240 973,378 913,378"/>
+      <polygon class="outline" fill="#9BD1FF" points="913,264 973,240 1193,240 1137,264"/>
+      <polygon class="outline" fill="url(#bunnyFrontGrad)" points="973,240 1193,240 1193,378 973,378"/>
+      <polygon fill="url(#bunnyMosaic)" points="973,240 1193,240 1193,378 973,378" pointer-events="none"/>
+
+      <rect class="bunny-eye" x="1009" y="314" width="40" height="18" rx="2" fill="#3F2D7D"/>
+      <rect class="bunny-eye" x="1129" y="314" width="40" height="18" rx="2" fill="#3F2D7D"/>
+      <rect x="1069" y="334" width="38" height="22" rx="2" fill="#4D358F"/>
+    </g>
+
+    <!-- Paws stay anchored on C & L -->
+    <g id="bunny-paw-left">
+      <polygon class="outline-thin" fill="#9AF2F2" points="1007,362 1057,362 1053,394 1003,394"/>
+      <polygon class="outline-thin" fill="#4EBCC9" points="1003,394 1053,394 1049,408 1001,408"/>
+    </g>
+    <g id="bunny-paw-right">
+      <polygon class="outline-thin" fill="#9AF2F2" points="1149,362 1199,362 1207,394 1157,394"/>
+      <polygon class="outline-thin" fill="#4EBCC9" points="1157,394 1207,394 1203,408 1153,408"/>
+    </g>
+  </g>
+
+  <!-- ==================== 5. FOREGROUND CORAL & VARIED BLUE FLOWERS ==================== -->
+  <g id="layer-fg-plants" filter="url(#softShadow)">
+    <rect x="214.2" y="668.9" width="132.1" height="17.1" fill="url(#coralGrad)" stroke="#38354D" stroke-width="1.7" stroke-linejoin="round"/>
+      <rect x="214.2" y="659.4" width="14.2" height="26.6" fill="url(#coralGrad)" stroke="#38354D" stroke-width="1.7" stroke-linejoin="round"/>
+      <polygon points="228.4,659.4 233.2,662.2 233.2,686.0 228.4,686.0" fill="#BA415B" stroke="#38354D" stroke-width="1.6" stroke-linejoin="round"/>
+      <rect x="216.1" y="661.3" width="10.4" height="4.8" fill="#FFC4CE" opacity="0.75"/>
+      <rect x="235.1" y="640.4" width="15.2" height="45.6" fill="url(#coralGrad)" stroke="#38354D" stroke-width="1.7" stroke-linejoin="round"/>
+      <polygon points="250.3,640.4 256.0,643.2 256.0,686.0 250.3,686.0" fill="#BA415B" stroke="#38354D" stroke-width="1.6" stroke-linejoin="round"/>
+      <rect x="237.0" y="642.3" width="11.4" height="4.8" fill="#FFC4CE" opacity="0.75"/>
+      <rect x="257.9" y="627.1" width="17.1" height="58.9" fill="url(#coralGrad)" stroke="#38354D" stroke-width="1.7" stroke-linejoin="round"/>
+      <polygon points="275.0,627.1 281.6,630.0 281.6,686.0 275.0,686.0" fill="#BA415B" stroke="#38354D" stroke-width="1.6" stroke-linejoin="round"/>
+      <rect x="259.8" y="629.0" width="13.3" height="4.8" fill="#FFC4CE" opacity="0.75"/>
+      <rect x="282.6" y="651.8" width="15.2" height="34.2" fill="url(#coralGrad)" stroke="#38354D" stroke-width="1.7" stroke-linejoin="round"/>
+      <polygon points="297.8,651.8 302.6,654.6 302.6,686.0 297.8,686.0" fill="#BA415B" stroke="#38354D" stroke-width="1.6" stroke-linejoin="round"/>
+      <rect x="284.5" y="653.7" width="11.4" height="4.8" fill="#FFC4CE" opacity="0.75"/>
+      <rect x="305.4" y="636.6" width="16.1" height="49.4" fill="url(#coralGrad)" stroke="#38354D" stroke-width="1.7" stroke-linejoin="round"/>
+      <polygon points="321.5,636.6 327.2,639.5 327.2,686.0 321.5,686.0" fill="#BA415B" stroke="#38354D" stroke-width="1.6" stroke-linejoin="round"/>
+      <rect x="307.3" y="638.5" width="12.3" height="4.8" fill="#FFC4CE" opacity="0.75"/>
+      <rect x="328.2" y="657.5" width="13.3" height="28.5" fill="url(#coralGrad)" stroke="#38354D" stroke-width="1.7" stroke-linejoin="round"/>
+      <polygon points="341.5,657.5 346.2,660.4 346.2,686.0 341.5,686.0" fill="#BA415B" stroke="#38354D" stroke-width="1.6" stroke-linejoin="round"/>
+      <rect x="330.1" y="659.4" width="9.5" height="4.8" fill="#FFC4CE" opacity="0.75"/>
+    <g class="sway-slow">
+        <rect x="316.1" y="595.3" width="11.9" height="90.7" fill="#35857A" stroke="#323046" stroke-width="1.8"/>
+        <rect x="304.7" y="655.8" width="11.9" height="7.6" fill="#49AA9B" stroke="#323046" stroke-width="1.5"/>
+        <rect x="327.9" y="638.5" width="11.9" height="7.6" fill="#49AA9B" stroke="#323046" stroke-width="1.5"/>
+        <polygon points="308.0,568.3 336.0,568.3 336.0,583.4 351.2,583.4 351.2,607.2 336.0,607.2 336.0,622.3 308.0,622.3 308.0,607.2 292.8,607.2 292.8,583.4 308.0,583.4" fill="#5CA6FF" stroke="#323046" stroke-width="1.9" stroke-linejoin="round"/>
+        <rect x="312.3" y="576.9" width="19.4" height="36.7" fill="#8ECAFF" opacity="0.7"/>
+        <rect x="303.6" y="585.6" width="36.7" height="19.4" fill="#8ECAFF" opacity="0.7"/>
+        <rect x="315.0" y="588.3" width="14.0" height="14.0" fill="#FFFFFF"/>
+      </g>
+
+    <rect x="593.4" y="674.9" width="139.6" height="17.1" fill="url(#coralGrad)" stroke="#38354D" stroke-width="1.7" stroke-linejoin="round"/>
+      <rect x="593.4" y="661.6" width="14.2" height="30.4" fill="url(#coralGrad)" stroke="#38354D" stroke-width="1.7" stroke-linejoin="round"/>
+      <polygon points="607.6,661.6 612.4,664.5 612.4,692.0 607.6,692.0" fill="#BA415B" stroke="#38354D" stroke-width="1.6" stroke-linejoin="round"/>
+      <rect x="595.3" y="663.5" width="10.4" height="4.8" fill="#FFC4CE" opacity="0.75"/>
+      <rect x="616.2" y="640.7" width="16.1" height="51.3" fill="url(#coralGrad)" stroke="#38354D" stroke-width="1.7" stroke-linejoin="round"/>
+      <polygon points="632.4,640.7 638.1,643.6 638.1,692.0 632.4,692.0" fill="#BA415B" stroke="#38354D" stroke-width="1.6" stroke-linejoin="round"/>
+      <rect x="618.1" y="642.6" width="12.3" height="4.8" fill="#FFC4CE" opacity="0.75"/>
+      <rect x="642.8" y="655.9" width="15.2" height="36.1" fill="url(#coralGrad)" stroke="#38354D" stroke-width="1.7" stroke-linejoin="round"/>
+      <polygon points="658.0,655.9 662.8,658.8 662.8,692.0 658.0,692.0" fill="#BA415B" stroke="#38354D" stroke-width="1.6" stroke-linejoin="round"/>
+      <rect x="644.7" y="657.8" width="11.4" height="4.8" fill="#FFC4CE" opacity="0.75"/>
+      <rect x="667.5" y="636.9" width="17.1" height="55.1" fill="url(#coralGrad)" stroke="#38354D" stroke-width="1.7" stroke-linejoin="round"/>
+      <polygon points="684.6,636.9 691.2,639.8 691.2,692.0 684.6,692.0" fill="#BA415B" stroke="#38354D" stroke-width="1.6" stroke-linejoin="round"/>
+      <rect x="669.4" y="638.8" width="13.3" height="4.8" fill="#FFC4CE" opacity="0.75"/>
+      <rect x="692.2" y="650.2" width="15.2" height="41.8" fill="url(#coralGrad)" stroke="#38354D" stroke-width="1.7" stroke-linejoin="round"/>
+      <polygon points="707.4,650.2 713.1,653.1 713.1,692.0 707.4,692.0" fill="#BA415B" stroke="#38354D" stroke-width="1.6" stroke-linejoin="round"/>
+      <rect x="694.1" y="652.1" width="11.4" height="4.8" fill="#FFC4CE" opacity="0.75"/>
+      <rect x="715.0" y="667.3" width="13.3" height="24.7" fill="url(#coralGrad)" stroke="#38354D" stroke-width="1.7" stroke-linejoin="round"/>
+      <polygon points="728.3,667.3 733.0,670.1 733.0,692.0 728.3,692.0" fill="#BA415B" stroke="#38354D" stroke-width="1.6" stroke-linejoin="round"/>
+      <rect x="716.9" y="669.2" width="9.5" height="4.8" fill="#FFC4CE" opacity="0.75"/>
+    <g class="sway-alt">
+        <rect x="686.4" y="647.4" width="7.2" height="44.6" fill="#35857A" stroke="#323046" stroke-width="1.7"/>
+        <rect x="693.6" y="673.3" width="7.2" height="5.0" fill="#49AA9B" stroke="#323046" stroke-width="1.4"/>
+        <polygon points="682.8,631.5 697.2,631.5 697.2,638.7 705.8,638.7 705.8,653.1 697.2,653.1 697.2,660.3 682.8,660.3 682.8,653.1 674.2,653.1 674.2,638.7 682.8,638.7" fill="#4B92FF" stroke="#323046" stroke-width="1.8" stroke-linejoin="round"/>
+        <rect x="685.7" y="641.6" width="8.6" height="8.6" fill="#FFFFFF"/>
+      </g>
+
+    <rect x="1273.5" y="670.9" width="142.5" height="17.1" fill="url(#coralGrad)" stroke="#38354D" stroke-width="1.7" stroke-linejoin="round"/>
+      <rect x="1273.5" y="663.3" width="14.2" height="24.7" fill="url(#coralGrad)" stroke="#38354D" stroke-width="1.7" stroke-linejoin="round"/>
+      <polygon points="1287.8,663.3 1292.5,666.1 1292.5,688.0 1287.8,688.0" fill="#BA415B" stroke="#38354D" stroke-width="1.6" stroke-linejoin="round"/>
+      <rect x="1275.4" y="665.2" width="10.4" height="4.8" fill="#FFC4CE" opacity="0.75"/>
+      <rect x="1296.3" y="634.8" width="17.1" height="53.2" fill="url(#coralGrad)" stroke="#38354D" stroke-width="1.7" stroke-linejoin="round"/>
+      <polygon points="1313.4,634.8 1319.1,637.6 1319.1,688.0 1313.4,688.0" fill="#BA415B" stroke="#38354D" stroke-width="1.6" stroke-linejoin="round"/>
+      <rect x="1298.2" y="636.7" width="13.3" height="4.8" fill="#FFC4CE" opacity="0.75"/>
+      <rect x="1322.9" y="650.0" width="15.2" height="38.0" fill="url(#coralGrad)" stroke="#38354D" stroke-width="1.7" stroke-linejoin="round"/>
+      <polygon points="1338.1,650.0 1342.9,652.9 1342.9,688.0 1338.1,688.0" fill="#BA415B" stroke="#38354D" stroke-width="1.6" stroke-linejoin="round"/>
+      <rect x="1324.8" y="651.9" width="11.4" height="4.8" fill="#FFC4CE" opacity="0.75"/>
+      <rect x="1347.6" y="627.2" width="18.1" height="60.8" fill="url(#coralGrad)" stroke="#38354D" stroke-width="1.7" stroke-linejoin="round"/>
+      <polygon points="1365.6,627.2 1372.3,630.1 1372.3,688.0 1365.6,688.0" fill="#BA415B" stroke="#38354D" stroke-width="1.6" stroke-linejoin="round"/>
+      <rect x="1349.5" y="629.1" width="14.2" height="4.8" fill="#FFC4CE" opacity="0.75"/>
+      <rect x="1374.2" y="644.3" width="15.2" height="43.7" fill="url(#coralGrad)" stroke="#38354D" stroke-width="1.7" stroke-linejoin="round"/>
+      <polygon points="1389.4,644.3 1395.1,647.1 1395.1,688.0 1389.4,688.0" fill="#BA415B" stroke="#38354D" stroke-width="1.6" stroke-linejoin="round"/>
+      <rect x="1376.1" y="646.2" width="11.4" height="4.8" fill="#FFC4CE" opacity="0.75"/>
+      <rect x="1397.0" y="657.6" width="14.2" height="30.4" fill="url(#coralGrad)" stroke="#38354D" stroke-width="1.7" stroke-linejoin="round"/>
+      <polygon points="1411.2,657.6 1416.0,660.5 1416.0,688.0 1411.2,688.0" fill="#BA415B" stroke="#38354D" stroke-width="1.6" stroke-linejoin="round"/>
+      <rect x="1398.9" y="659.5" width="10.4" height="4.8" fill="#FFC4CE" opacity="0.75"/>
+    <g class="sway-fast">
+        <rect x="1397.5" y="621.4" width="9.0" height="66.6" fill="#35857A" stroke="#323046" stroke-width="1.7"/>
+        <rect x="1388.5" y="659.2" width="9.0" height="6.3" fill="#49AA9B" stroke="#323046" stroke-width="1.4"/>
+        <rect x="1384.0" y="603.4" width="36.0" height="36.0" fill="#3F7EE8" stroke="#323046" stroke-width="1.7" stroke-linejoin="round"/>
+        <polygon points="1392.1,598.0 1411.9,598.0 1411.9,611.5 1425.4,611.5 1425.4,631.3 1411.9,631.3 1411.9,644.8 1392.1,644.8 1392.1,631.3 1378.6,631.3 1378.6,611.5 1392.1,611.5" fill="#76BAFF" stroke="#323046" stroke-width="1.8" stroke-linejoin="round"/>
+        <rect x="1396.6" y="616.0" width="10.8" height="10.8" fill="#FFFFFF"/>
+      </g>
+  </g>
+
+  <!-- ==================== 6. FLOATING SIFT BIOME SPORES ==================== -->
+  <g id="layer-spores" pointer-events="none">
+    <rect class="spore" style="animation-delay:0s" x="132" y="192" width="7" height="7" fill="#BFF7F2" stroke="#38354D" stroke-width="1"/>
+    <rect class="spore" style="animation-delay:-1.8s" x="292" y="186" width="6" height="6" fill="#FFFFFF" stroke="#38354D" stroke-width="1"/>
+    <rect class="spore" style="animation-delay:-3.2s" x="86" y="252" width="6" height="6" fill="#A5EFE8" stroke="#38354D" stroke-width="1"/>
+    <rect class="spore" style="animation-delay:-0.9s" x="920" y="206" width="7" height="7" fill="#9AD4FF" stroke="#38354D" stroke-width="1"/>
+    <rect class="spore" style="animation-delay:-4.4s" x="1220" y="228" width="7" height="7" fill="#BFF7F2" stroke="#38354D" stroke-width="1"/>
+    <rect class="spore" style="animation-delay:-2.5s" x="1836" y="398" width="6" height="6" fill="#BFF7F2" stroke="#38354D" stroke-width="1"/>
+  </g>
+</svg>

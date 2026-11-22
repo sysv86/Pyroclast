@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Contributor & Clean-Room Rules (AGENTS.md)
+    url: "../../blob/main/AGENTS.md"
+    about: Read AGENTS.md before proposing architectural changes or submitting code.
+  - name: Developer Documentation (docs/)
+    url: "../../tree/main/docs"
+    about: Engine optimizations, TurboShadersBridge SPI, and configuration/diagnostics guides.
