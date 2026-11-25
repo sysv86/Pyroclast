@@ -13,7 +13,6 @@ import dev.vulkanturbo.gui.DiagnosticNotices
 import dev.vulkanturbo.platform.PlatformInfo
 import net.fabricmc.api.ClientModInitializer
 import net.fabricmc.loader.api.FabricLoader
-import net.minecraft.ChatFormatting
 import net.minecraft.client.Minecraft
 import net.minecraft.network.chat.Component
 import net.minecraft.network.chat.MutableComponent
@@ -44,12 +43,30 @@ object VulkanTurbo : ClientModInitializer {
     const val TURBOSHADERS_ENTRYPOINT: String = "turboshaders"
 
     private const val BRAND_NAME: String = "VulkanTurbo"
-    private const val GRADIENT_START_R = 0xFF
-    private const val GRADIENT_START_G = 0x2A
-    private const val GRADIENT_START_B = 0x00
-    private const val GRADIENT_END_R = 0xFF
-    private const val GRADIENT_END_G = 0x8C
-    private const val GRADIENT_END_B = 0x00
+
+    // Sampled from docs/icons/pyroclast.svg letterFrontGrad — the banner at the top of README.md:
+    // #B9EBE7 -> #DCF6F4 -> #FFF8F9 -> #FBBCCB -> #F88294 -> #EC6076.
+    private val BRAND_GRADIENT = intArrayOf(0xB9EBE7, 0xDCF6F4, 0xFFF8F9, 0xFBBCCB, 0xF88294, 0xEC6076)
+    private const val BRAND_BODY_COLOR: Int = 0xF88294
+
+    private fun gradientRgb(t: Float): Int {
+        val last = BRAND_GRADIENT.size - 1
+        val pos = t.coerceIn(0f, 1f) * last
+        val idx = pos.toInt().coerceAtMost(last - 1)
+        val f = pos - idx
+        val a = BRAND_GRADIENT[idx]
+        val b = BRAND_GRADIENT[idx + 1]
+        val ar = (a shr 16) and 0xFF
+        val ag = (a shr 8) and 0xFF
+        val ab = a and 0xFF
+        val br = (b shr 16) and 0xFF
+        val bg = (b shr 8) and 0xFF
+        val bb = b and 0xFF
+        val r = (ar + (br - ar) * f).toInt()
+        val g = (ag + (bg - ag) * f).toInt()
+        val bl = (ab + (bb - ab) * f).toInt()
+        return (r shl 16) or (g shl 8) or bl
+    }
 
     val log: Logger = LoggerFactory.getLogger(MOD_ID)
 
@@ -255,13 +272,9 @@ object VulkanTurbo : ClientModInitializer {
         val last = (BRAND_NAME.length - 1).coerceAtLeast(1)
         for (i in BRAND_NAME.indices) {
             val t = i.toFloat() / last.toFloat()
-            val r = (GRADIENT_START_R + (GRADIENT_END_R - GRADIENT_START_R) * t).toInt()
-            val g = (GRADIENT_START_G + (GRADIENT_END_G - GRADIENT_START_G) * t).toInt()
-            val b = (GRADIENT_START_B + (GRADIENT_END_B - GRADIENT_START_B) * t).toInt()
-            val rgb = (r shl 16) or (g shl 8) or b
             root.append(
                 Component.literal(BRAND_NAME.substring(i, i + 1)).withStyle(
-                    Style.EMPTY.withColor(TextColor.fromRgb(rgb)).withBold(true),
+                    Style.EMPTY.withColor(TextColor.fromRgb(gradientRgb(t))).withBold(true),
                 ),
             )
         }
@@ -280,7 +293,7 @@ object VulkanTurbo : ClientModInitializer {
             !configEnabled -> ": Vulkan backend detected ($deviceName), but mod is disabled in config."
             else -> ": Vulkan backend active ($deviceName) — optimizations enabled."
         }
-        root.append(Component.literal(body).withStyle(Style.EMPTY.withColor(ChatFormatting.WHITE).withBold(false)))
+        root.append(Component.literal(body).withStyle(Style.EMPTY.withColor(TextColor.fromRgb(BRAND_BODY_COLOR)).withBold(false)))
         return root
     }
 

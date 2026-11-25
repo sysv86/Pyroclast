@@ -36,6 +36,8 @@
   "vulkanturbo.options.optimalImageLayouts.tooltip": "Использует подходящие раскладки изображений вместо общей раскладки Vulkan.",
   "vulkanturbo.options.verboseLogging.tooltip": "Записывает сведения о GPU и статистику оптимизаций в лог.",
   "vulkanturbo.options.benchmark.tooltip": "Записывает статистику времени кадров в мире.",
+  "vulkanturbo.options.reset": "Сбросить",
+  "vulkanturbo.options.done": "Готово",
   "vulkanturbo.options.viewLog": "Открыть лог...",
   "vulkanturbo.options.viewLog.errors": "Открыть лог... (ошибок: %s)",
   "vulkanturbo.toast.error_title": "Ошибка Pyroclast",

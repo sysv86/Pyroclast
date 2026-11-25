@@ -19,6 +19,13 @@ run/
 remappedSrc/
 .fabric/
 
+# Runtime logs
+logs/
+
+# Python caches (benchmark harness)
+__pycache__/
+*.pyc
+
 # OS
 .DS_Store
 Thumbs.db

@@ -144,16 +144,9 @@ class VulkanErrorLogScreen(
             }
             copyButton?.message = Component.translatable("vulkanturbo.screen.log.copied")
             copiedResetTicks = 40
-        }.width(76).build()
+        }.width(78).build()
         copyButton = copyBtn
         footer.addChild(copyBtn)
-
-        footer.addChild(
-            Button.builder(Component.translatable("vulkanturbo.screen.log.clear")) {
-                VulkanDiagnosticLog.clear()
-                refreshLogList()
-            }.width(64).build(),
-        )
 
         footer.addChild(
             Button.builder(Component.translatable("vulkanturbo.screen.log.open_folder")) {
@@ -162,7 +155,14 @@ class VulkanErrorLogScreen(
                     Files.createDirectories(dir)
                     Blaze3D.openPath(dir)
                 }
-            }.width(84).build(),
+            }.width(78).build(),
+        )
+
+        footer.addChild(
+            Button.builder(Component.translatable("vulkanturbo.screen.log.clear")) {
+                VulkanDiagnosticLog.clear()
+                refreshLogList()
+            }.width(70).build(),
         )
 
         footer.addChild(
@@ -194,10 +194,11 @@ class VulkanErrorLogScreen(
     }
 
     private fun classifyLineColor(rawLine: String, previousColor: Int): Int = when {
+        rawLine.contains("[ShaderCompile]") || rawLine.contains("[DeviceLost]") -> COLOR_DIAGNOSTIC
         rawLine.contains("[ERROR]") -> COLOR_ERROR
         rawLine.contains("[WARN]") -> COLOR_WARN
         rawLine.contains("[INFO]") -> COLOR_INFO
-        rawLine.startsWith("    ") -> if (previousColor == COLOR_ERROR) COLOR_ERROR_DETAIL else COLOR_DETAIL
+        rawLine.startsWith("    ") -> if (previousColor == COLOR_ERROR || previousColor == COLOR_DIAGNOSTIC) COLOR_ERROR_DETAIL else COLOR_DETAIL
         rawLine.startsWith("===") || rawLine.startsWith("--") -> COLOR_HEADER
         else -> COLOR_NORMAL
     }
@@ -232,6 +233,7 @@ class VulkanErrorLogScreen(
     companion object {
         private const val LOG_WIDGET_WIDTH: Int = 310
         private const val LOG_LINE_HEIGHT: Int = 13
+        private const val COLOR_DIAGNOSTIC: Int = 0xFFFF8855.toInt()
         private const val COLOR_ERROR: Int = 0xFFFF5555.toInt()
         private const val COLOR_ERROR_DETAIL: Int = 0xFFE8A0A0.toInt()
         private const val COLOR_WARN: Int = 0xFFFFFF55.toInt()

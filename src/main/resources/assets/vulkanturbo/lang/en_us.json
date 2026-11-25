@@ -36,6 +36,8 @@
   "vulkanturbo.options.verboseLogging.tooltip": "Logs detailed GPU probe and periodic runtime optimization statistics.",
   "vulkanturbo.options.benchmark": "Frame Benchmark",
   "vulkanturbo.options.benchmark.tooltip": "Logs frame-time percentile windows while in a world for performance measurement.",
+  "vulkanturbo.options.reset": "Reset Default",
+  "vulkanturbo.options.done": "Done",
   "vulkanturbo.options.viewLog": "View Log...",
   "vulkanturbo.options.viewLog.errors": "View Log... (%s errors)",
   "vulkanturbo.toast.error_title": "Pyroclast Error",

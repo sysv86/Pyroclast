@@ -9,6 +9,7 @@ import net.minecraft.client.Minecraft
 import net.minecraft.client.OptionInstance
 import net.minecraft.client.Options
 import net.minecraft.client.gui.components.Button
+import net.minecraft.client.gui.layouts.LinearLayout
 import net.minecraft.client.gui.screens.Screen
 import net.minecraft.client.gui.screens.options.OptionsSubScreen
 import net.minecraft.network.chat.Component
@@ -24,10 +25,16 @@ class VulkanTurboSettingsScreen(
 ) : OptionsSubScreen(lastScreen, options, Component.translatable("vulkanturbo.options.title")) {
 
     private var workingConfig: VulkanTurboConfig = VulkanTurbo.config
+    private var savedScroll: Double = 0.0
 
     override fun init() {
+        // Preserve the user's position when a toggle forces a widget rebuild.
+        savedScroll = list?.scrollAmount() ?: 0.0
         layout.removeChildren()
         super.init()
+        if (savedScroll > 0.0) {
+            list?.setScrollAmount(savedScroll)
+        }
     }
 
     override fun addOptions() {
@@ -99,23 +106,48 @@ class VulkanTurboSettingsScreen(
             },
         )
 
+        // The log button lives in the footer only; keeping a second one here duplicated it.
+    }
+
+    override fun addFooter() {
+        // Strict 310px column, identical to Hyaloclast's pack/graphics screens:
+        // 78 + 78 + 146 + three 4px gaps.
+        val footer = layout.addToFooter(LinearLayout.horizontal().spacing(4))
+        footer.addChild(
+            Button.builder(Component.translatable("vulkanturbo.options.reset")) {
+                workingConfig = VulkanTurboConfig()
+                persistAndRefresh()
+                refreshWidgets()
+            }.width(78).build(),
+        )
         val errCount = VulkanDiagnosticLog.errorCount()
-        val logBtnLabel = if (errCount > 0) {
+        val logLabel = if (errCount > 0) {
             Component.translatable("vulkanturbo.options.viewLog.errors", errCount)
                 .withStyle(ChatFormatting.RED)
         } else {
             Component.translatable("vulkanturbo.options.viewLog")
         }
-        list.addBig(
-            Button.builder(logBtnLabel) {
+        footer.addChild(
+            Button.builder(logLabel) {
                 minecraft.gui.setScreen(VulkanErrorLogScreen(this, options))
-            }.width(Button.BIG_WIDTH).build(),
+            }.width(78).build(),
+        )
+        footer.addChild(
+            Button.builder(Component.translatable("vulkanturbo.options.done")) {
+                onClose()
+            }.width(146).build(),
         )
     }
 
     override fun removed() {
         super.removed()
         persistAndRefresh()
+    }
+
+    private fun refreshWidgets() {
+        val scroll = list?.scrollAmount() ?: 0.0
+        rebuildWidgets()
+        list?.setScrollAmount(scroll)
     }
 
     private fun boolOption(
